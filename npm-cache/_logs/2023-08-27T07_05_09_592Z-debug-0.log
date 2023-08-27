@@ -1,0 +1,952 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.15.0
+2 info using node@v16.17.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 11ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 6ms
+6 timing config:load:builtin Completed in 9ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:project Completed in 3ms
+10 timing config:load:file:C:\Users\csmku\.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\csmku\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 1ms
+15 timing config:load:credentials Completed in 2ms
+16 timing config:load:setEnvs Completed in 3ms
+17 timing config:load Completed in 42ms
+18 timing npm:load:configload Completed in 43ms
+19 timing npm:load:mkdirpcache Completed in 3ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install puppeteer
+22 verbose argv "install" "puppeteer" "--global"
+23 timing npm:load:setTitle Completed in 5ms
+24 timing config:load:flatten Completed in 10ms
+25 timing npm:load:display Completed in 14ms
+26 verbose logfile logs-max:10 dir:C:\Users\csmku\AppData\Local\npm-cache\_logs
+27 verbose logfile C:\Users\csmku\AppData\Local\npm-cache\_logs\2023-08-27T07_05_09_592Z-debug-0.log
+28 timing npm:load:logFile Completed in 18ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 87ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 2 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 14ms
+36 timing idealTree:userRequests Completed in 5ms
+37 silly idealTree buildDeps
+38 silly fetch manifest puppeteer@*
+39 http fetch GET 200 https://registry.npmjs.org/puppeteer 52ms (cache hit)
+40 silly placeDep ROOT puppeteer@21.1.0 OK for:  want: *
+41 silly fetch manifest cosmiconfig@8.2.0
+42 silly fetch manifest puppeteer-core@21.1.0
+43 silly fetch manifest @puppeteer/browsers@1.7.0
+44 http fetch GET 200 https://registry.npmjs.org/@puppeteer%2fbrowsers 37ms (cache hit)
+45 http fetch GET 200 https://registry.npmjs.org/cosmiconfig 45ms (cache hit)
+46 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 52ms (cache hit)
+47 timing idealTree:#root Completed in 176ms
+48 silly placeDep node_modules/puppeteer @puppeteer/browsers@1.7.0 OK for: puppeteer@21.1.0 want: 1.7.0
+49 silly placeDep node_modules/puppeteer cosmiconfig@8.2.0 OK for: puppeteer@21.1.0 want: 8.2.0
+50 silly placeDep node_modules/puppeteer puppeteer-core@21.1.0 OK for: puppeteer@21.1.0 want: 21.1.0
+51 silly fetch manifest debug@4.3.4
+52 silly fetch manifest extract-zip@2.0.1
+53 silly fetch manifest progress@2.0.3
+54 silly fetch manifest proxy-agent@6.3.0
+55 silly fetch manifest tar-fs@3.0.4
+56 silly fetch manifest unbzip2-stream@1.4.3
+57 silly fetch manifest yargs@17.7.1
+58 silly fetch manifest import-fresh@^3.2.1
+59 silly fetch manifest js-yaml@^4.1.0
+60 silly fetch manifest parse-json@^5.0.0
+61 silly fetch manifest path-type@^4.0.0
+62 silly fetch manifest chromium-bidi@0.4.20
+63 silly fetch manifest cross-fetch@4.0.0
+64 silly fetch manifest devtools-protocol@0.0.1159816
+65 silly fetch manifest ws@8.13.0
+66 http fetch GET 200 https://registry.npmjs.org/extract-zip 176ms (cache hit)
+67 http fetch GET 200 https://registry.npmjs.org/debug 181ms (cache hit)
+68 http fetch GET 200 https://registry.npmjs.org/proxy-agent 179ms (cache hit)
+69 http fetch GET 200 https://registry.npmjs.org/progress 183ms (cache hit)
+70 http fetch GET 200 https://registry.npmjs.org/tar-fs 180ms (cache hit)
+71 http fetch GET 200 https://registry.npmjs.org/unbzip2-stream 182ms (cache hit)
+72 http fetch GET 200 https://registry.npmjs.org/import-fresh 179ms (cache hit)
+73 http fetch GET 200 https://registry.npmjs.org/chromium-bidi 174ms (cache hit)
+74 http fetch GET 200 https://registry.npmjs.org/parse-json 180ms (cache hit)
+75 http fetch GET 200 https://registry.npmjs.org/yargs 190ms (cache hit)
+76 http fetch GET 200 https://registry.npmjs.org/js-yaml 200ms (cache hit)
+77 http fetch GET 200 https://registry.npmjs.org/path-type 201ms (cache hit)
+78 http fetch GET 200 https://registry.npmjs.org/cross-fetch 200ms (cache hit)
+79 http fetch GET 200 https://registry.npmjs.org/ws 200ms (cache hit)
+80 http fetch GET 200 https://registry.npmjs.org/devtools-protocol 215ms (cache hit)
+81 timing idealTree:node_modules/puppeteer Completed in 273ms
+82 silly placeDep node_modules/puppeteer debug@4.3.4 OK for: @puppeteer/browsers@1.7.0 want: 4.3.4
+83 silly placeDep node_modules/puppeteer extract-zip@2.0.1 OK for: @puppeteer/browsers@1.7.0 want: 2.0.1
+84 silly placeDep node_modules/puppeteer progress@2.0.3 OK for: @puppeteer/browsers@1.7.0 want: 2.0.3
+85 silly placeDep node_modules/puppeteer proxy-agent@6.3.0 OK for: @puppeteer/browsers@1.7.0 want: 6.3.0
+86 silly placeDep node_modules/puppeteer tar-fs@3.0.4 OK for: @puppeteer/browsers@1.7.0 want: 3.0.4
+87 silly placeDep node_modules/puppeteer unbzip2-stream@1.4.3 OK for: @puppeteer/browsers@1.7.0 want: 1.4.3
+88 silly placeDep node_modules/puppeteer yargs@17.7.1 OK for: @puppeteer/browsers@1.7.0 want: 17.7.1
+89 silly fetch manifest ms@2.1.2
+90 silly fetch manifest get-stream@^5.1.0
+91 silly fetch manifest yauzl@^2.10.0
+92 silly fetch manifest @types/yauzl@^2.9.1
+93 silly fetch manifest agent-base@^7.0.2
+94 silly fetch manifest http-proxy-agent@^7.0.0
+95 silly fetch manifest https-proxy-agent@^7.0.0
+96 silly fetch manifest lru-cache@^7.14.1
+97 silly fetch manifest pac-proxy-agent@^7.0.0
+98 silly fetch manifest proxy-from-env@^1.1.0
+99 silly fetch manifest socks-proxy-agent@^8.0.1
+100 silly fetch manifest mkdirp-classic@^0.5.2
+101 silly fetch manifest pump@^3.0.0
+102 silly fetch manifest tar-stream@^3.1.5
+103 silly fetch manifest buffer@^5.2.1
+104 silly fetch manifest through@^2.3.8
+105 silly fetch manifest cliui@^8.0.1
+106 silly fetch manifest escalade@^3.1.1
+107 silly fetch manifest get-caller-file@^2.0.5
+108 silly fetch manifest require-directory@^2.1.1
+109 silly fetch manifest string-width@^4.2.3
+110 silly fetch manifest y18n@^5.0.5
+111 silly fetch manifest yargs-parser@^21.1.1
+112 http fetch GET 200 https://registry.npmjs.org/get-stream 236ms (cache hit)
+113 http fetch GET 200 https://registry.npmjs.org/ms 240ms (cache hit)
+114 http fetch GET 200 https://registry.npmjs.org/yauzl 237ms (cache hit)
+115 http fetch GET 200 https://registry.npmjs.org/@types%2fyauzl 235ms (cache hit)
+116 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 222ms (cache hit)
+117 http fetch GET 200 https://registry.npmjs.org/http-proxy-agent 233ms (cache hit)
+118 http fetch GET 200 https://registry.npmjs.org/lru-cache 231ms (cache hit)
+119 http fetch GET 200 https://registry.npmjs.org/pac-proxy-agent 242ms (cache hit)
+120 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 250ms (cache hit)
+121 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic 235ms (cache hit)
+122 http fetch GET 200 https://registry.npmjs.org/socks-proxy-agent 245ms (cache hit)
+123 http fetch GET 200 https://registry.npmjs.org/pump 237ms (cache hit)
+124 http fetch GET 200 https://registry.npmjs.org/tar-stream 238ms (cache hit)
+125 http fetch GET 200 https://registry.npmjs.org/buffer 240ms (cache hit)
+126 http fetch GET 200 https://registry.npmjs.org/cliui 242ms (cache hit)
+127 http fetch GET 200 https://registry.npmjs.org/through 247ms (cache hit)
+128 http fetch GET 200 https://registry.npmjs.org/escalade 245ms (cache hit)
+129 http fetch GET 200 https://registry.npmjs.org/require-directory 242ms (cache hit)
+130 http fetch GET 200 https://registry.npmjs.org/agent-base 283ms (cache hit)
+131 http fetch GET 200 https://registry.npmjs.org/get-caller-file 248ms (cache hit)
+132 http fetch GET 200 https://registry.npmjs.org/string-width 246ms (cache hit)
+133 http fetch GET 200 https://registry.npmjs.org/yargs-parser 246ms (cache hit)
+134 http fetch GET 200 https://registry.npmjs.org/y18n 255ms (cache hit)
+135 timing idealTree:node_modules/puppeteer/node_modules/@puppeteer/browsers Completed in 358ms
+136 silly placeDep node_modules/puppeteer import-fresh@3.3.0 OK for: cosmiconfig@8.2.0 want: ^3.2.1
+137 silly placeDep node_modules/puppeteer js-yaml@4.1.0 OK for: cosmiconfig@8.2.0 want: ^4.1.0
+138 silly placeDep node_modules/puppeteer parse-json@5.2.0 OK for: cosmiconfig@8.2.0 want: ^5.0.0
+139 silly placeDep node_modules/puppeteer path-type@4.0.0 OK for: cosmiconfig@8.2.0 want: ^4.0.0
+140 silly fetch manifest parent-module@^1.0.0
+141 silly fetch manifest resolve-from@^4.0.0
+142 silly fetch manifest argparse@^2.0.1
+143 silly fetch manifest @babel/code-frame@^7.0.0
+144 silly fetch manifest error-ex@^1.3.1
+145 silly fetch manifest json-parse-even-better-errors@^2.3.0
+146 silly fetch manifest lines-and-columns@^1.1.6
+147 http fetch GET 200 https://registry.npmjs.org/lines-and-columns 478ms (cache revalidated)
+148 http fetch GET 200 https://registry.npmjs.org/parent-module 515ms (cache updated)
+149 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 554ms (cache updated)
+150 http fetch GET 200 https://registry.npmjs.org/resolve-from 582ms (cache updated)
+151 http fetch GET 200 https://registry.npmjs.org/error-ex 576ms (cache updated)
+152 http fetch GET 200 https://registry.npmjs.org/argparse 590ms (cache updated)
+153 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 605ms (cache updated)
+154 timing idealTree:node_modules/puppeteer/node_modules/cosmiconfig Completed in 639ms
+155 silly placeDep node_modules/puppeteer ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+156 timing idealTree:node_modules/puppeteer/node_modules/debug Completed in 4ms
+157 silly placeDep node_modules/puppeteer @types/yauzl@2.10.0 OK for: extract-zip@2.0.1 want: ^2.9.1
+158 silly placeDep node_modules/puppeteer get-stream@5.2.0 OK for: extract-zip@2.0.1 want: ^5.1.0
+159 silly placeDep node_modules/puppeteer yauzl@2.10.0 OK for: extract-zip@2.0.1 want: ^2.10.0
+160 silly fetch manifest @types/node@*
+161 silly fetch manifest fd-slicer@~1.1.0
+162 silly fetch manifest buffer-crc32@~0.2.3
+163 http fetch GET 200 https://registry.npmjs.org/buffer-crc32 194ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/fd-slicer 199ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 610ms (cache updated)
+166 timing idealTree:node_modules/puppeteer/node_modules/extract-zip Completed in 689ms
+167 silly placeDep node_modules/puppeteer @types/node@20.5.6 OK for: @types/yauzl@2.10.0 want: *
+168 timing idealTree:node_modules/puppeteer/node_modules/@types/yauzl Completed in 4ms
+169 timing idealTree:node_modules/puppeteer/node_modules/@types/node Completed in 0ms
+170 silly placeDep node_modules/puppeteer pump@3.0.0 OK for: get-stream@5.2.0 want: ^3.0.0
+171 silly fetch manifest end-of-stream@^1.1.0
+172 silly fetch manifest once@^1.3.1
+173 http fetch GET 200 https://registry.npmjs.org/once 111ms (cache updated)
+174 http fetch GET 200 https://registry.npmjs.org/end-of-stream 115ms (cache miss)
+175 timing idealTree:node_modules/puppeteer/node_modules/get-stream Completed in 121ms
+176 silly placeDep node_modules/puppeteer parent-module@1.0.1 OK for: import-fresh@3.3.0 want: ^1.0.0
+177 silly placeDep node_modules/puppeteer resolve-from@4.0.0 OK for: import-fresh@3.3.0 want: ^4.0.0
+178 silly fetch manifest callsites@^3.0.0
+179 http fetch GET 200 https://registry.npmjs.org/callsites 94ms (cache updated)
+180 timing idealTree:node_modules/puppeteer/node_modules/import-fresh Completed in 103ms
+181 silly placeDep node_modules/puppeteer argparse@2.0.1 OK for: js-yaml@4.1.0 want: ^2.0.1
+182 timing idealTree:node_modules/puppeteer/node_modules/js-yaml Completed in 3ms
+183 timing idealTree:node_modules/puppeteer/node_modules/argparse Completed in 0ms
+184 timing idealTree:node_modules/puppeteer/node_modules/ms Completed in 0ms
+185 silly placeDep node_modules/puppeteer callsites@3.1.0 OK for: parent-module@1.0.1 want: ^3.0.0
+186 timing idealTree:node_modules/puppeteer/node_modules/parent-module Completed in 3ms
+187 timing idealTree:node_modules/puppeteer/node_modules/callsites Completed in 0ms
+188 silly placeDep node_modules/puppeteer @babel/code-frame@7.22.10 OK for: parse-json@5.2.0 want: ^7.0.0
+189 silly placeDep node_modules/puppeteer error-ex@1.3.2 OK for: parse-json@5.2.0 want: ^1.3.1
+190 silly placeDep node_modules/puppeteer json-parse-even-better-errors@2.3.1 OK for: parse-json@5.2.0 want: ^2.3.0
+191 silly placeDep node_modules/puppeteer lines-and-columns@1.2.4 OK for: parse-json@5.2.0 want: ^1.1.6
+192 silly fetch manifest @babel/highlight@^7.22.10
+193 silly fetch manifest chalk@^2.4.2
+194 silly fetch manifest is-arrayish@^0.2.1
+195 http fetch GET 200 https://registry.npmjs.org/is-arrayish 140ms (cache updated)
+196 http fetch GET 200 https://registry.npmjs.org/@babel%2fhighlight 149ms (cache updated)
+197 http fetch GET 200 https://registry.npmjs.org/chalk 152ms (cache updated)
+198 timing idealTree:node_modules/puppeteer/node_modules/parse-json Completed in 177ms
+199 silly placeDep node_modules/puppeteer @babel/highlight@7.22.10 OK for: @babel/code-frame@7.22.10 want: ^7.22.10
+200 silly placeDep node_modules/puppeteer chalk@2.4.2 OK for: @babel/code-frame@7.22.10 want: ^2.4.2
+201 silly fetch manifest @babel/helper-validator-identifier@^7.22.5
+202 silly fetch manifest js-tokens@^4.0.0
+203 silly fetch manifest ansi-styles@^3.2.1
+204 silly fetch manifest escape-string-regexp@^1.0.5
+205 silly fetch manifest supports-color@^5.3.0
+206 http fetch GET 200 https://registry.npmjs.org/ansi-styles 146ms (cache updated)
+207 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 149ms (cache updated)
+208 http fetch GET 200 https://registry.npmjs.org/js-tokens 154ms (cache updated)
+209 http fetch GET 200 https://registry.npmjs.org/supports-color 154ms (cache updated)
+210 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 169ms (cache updated)
+211 timing idealTree:node_modules/puppeteer/node_modules/@babel/code-frame Completed in 177ms
+212 silly placeDep node_modules/puppeteer @babel/helper-validator-identifier@7.22.5 OK for: @babel/highlight@7.22.10 want: ^7.22.5
+213 silly placeDep node_modules/puppeteer js-tokens@4.0.0 OK for: @babel/highlight@7.22.10 want: ^4.0.0
+214 timing idealTree:node_modules/puppeteer/node_modules/@babel/highlight Completed in 6ms
+215 timing idealTree:node_modules/puppeteer/node_modules/@babel/helper-validator-identifier Completed in 0ms
+216 silly placeDep node_modules/puppeteer ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+217 silly placeDep node_modules/puppeteer escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+218 silly placeDep node_modules/puppeteer supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+219 silly fetch manifest color-convert@^1.9.0
+220 silly fetch manifest has-flag@^3.0.0
+221 http fetch GET 200 https://registry.npmjs.org/color-convert 114ms (cache updated)
+222 http fetch GET 200 https://registry.npmjs.org/has-flag 1176ms (cache updated)
+223 timing idealTree:node_modules/puppeteer/node_modules/chalk Completed in 1188ms
+224 silly placeDep node_modules/puppeteer color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+225 silly fetch manifest color-name@1.1.3
+226 http fetch GET 200 https://registry.npmjs.org/color-name 138ms (cache updated)
+227 timing idealTree:node_modules/puppeteer/node_modules/ansi-styles Completed in 144ms
+228 silly placeDep node_modules/puppeteer color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+229 timing idealTree:node_modules/puppeteer/node_modules/color-convert Completed in 3ms
+230 timing idealTree:node_modules/puppeteer/node_modules/color-name Completed in 0ms
+231 silly placeDep node_modules/puppeteer is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+232 timing idealTree:node_modules/puppeteer/node_modules/error-ex Completed in 4ms
+233 timing idealTree:node_modules/puppeteer/node_modules/escape-string-regexp Completed in 0ms
+234 timing idealTree:node_modules/puppeteer/node_modules/is-arrayish Completed in 0ms
+235 timing idealTree:node_modules/puppeteer/node_modules/js-tokens Completed in 0ms
+236 timing idealTree:node_modules/puppeteer/node_modules/json-parse-even-better-errors Completed in 0ms
+237 timing idealTree:node_modules/puppeteer/node_modules/lines-and-columns Completed in 0ms
+238 timing idealTree:node_modules/puppeteer/node_modules/path-type Completed in 0ms
+239 timing idealTree:node_modules/puppeteer/node_modules/progress Completed in 0ms
+240 silly placeDep node_modules/puppeteer agent-base@7.1.0 OK for: proxy-agent@6.3.0 want: ^7.0.2
+241 silly placeDep node_modules/puppeteer http-proxy-agent@7.0.0 OK for: proxy-agent@6.3.0 want: ^7.0.0
+242 silly placeDep node_modules/puppeteer https-proxy-agent@7.0.1 OK for: proxy-agent@6.3.0 want: ^7.0.0
+243 silly placeDep node_modules/puppeteer lru-cache@7.18.3 OK for: proxy-agent@6.3.0 want: ^7.14.1
+244 silly placeDep node_modules/puppeteer pac-proxy-agent@7.0.0 OK for: proxy-agent@6.3.0 want: ^7.0.0
+245 silly placeDep node_modules/puppeteer proxy-from-env@1.1.0 OK for: proxy-agent@6.3.0 want: ^1.1.0
+246 silly placeDep node_modules/puppeteer socks-proxy-agent@8.0.1 OK for: proxy-agent@6.3.0 want: ^8.0.1
+247 silly fetch manifest @tootallnate/quickjs-emscripten@^0.23.0
+248 silly fetch manifest get-uri@^6.0.1
+249 silly fetch manifest pac-resolver@^7.0.0
+250 silly fetch manifest socks@^2.7.1
+251 http fetch GET 200 https://registry.npmjs.org/socks 142ms (cache revalidated)
+252 http fetch GET 200 https://registry.npmjs.org/get-uri 152ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/pac-resolver 154ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/@tootallnate%2fquickjs-emscripten 159ms (cache miss)
+255 timing idealTree:node_modules/puppeteer/node_modules/proxy-agent Completed in 193ms
+256 timing idealTree:node_modules/puppeteer/node_modules/agent-base Completed in 0ms
+257 timing idealTree:node_modules/puppeteer/node_modules/http-proxy-agent Completed in 0ms
+258 timing idealTree:node_modules/puppeteer/node_modules/https-proxy-agent Completed in 0ms
+259 timing idealTree:node_modules/puppeteer/node_modules/lru-cache Completed in 0ms
+260 silly placeDep node_modules/puppeteer @tootallnate/quickjs-emscripten@0.23.0 OK for: pac-proxy-agent@7.0.0 want: ^0.23.0
+261 silly placeDep node_modules/puppeteer get-uri@6.0.1 OK for: pac-proxy-agent@7.0.0 want: ^6.0.1
+262 silly placeDep node_modules/puppeteer pac-resolver@7.0.0 OK for: pac-proxy-agent@7.0.0 want: ^7.0.0
+263 silly fetch manifest basic-ftp@^5.0.2
+264 silly fetch manifest data-uri-to-buffer@^5.0.1
+265 silly fetch manifest fs-extra@^8.1.0
+266 silly fetch manifest degenerator@^5.0.0
+267 silly fetch manifest ip@^1.1.8
+268 silly fetch manifest netmask@^2.0.2
+269 http fetch GET 200 https://registry.npmjs.org/ip 133ms (cache revalidated)
+270 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer 143ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/netmask 134ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/degenerator 148ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/fs-extra 156ms (cache updated)
+274 http fetch GET 200 https://registry.npmjs.org/basic-ftp 178ms (cache miss)
+275 timing idealTree:node_modules/puppeteer/node_modules/pac-proxy-agent Completed in 195ms
+276 timing idealTree:node_modules/puppeteer/node_modules/@tootallnate/quickjs-emscripten Completed in 0ms
+277 silly placeDep node_modules/puppeteer basic-ftp@5.0.3 OK for: get-uri@6.0.1 want: ^5.0.2
+278 silly placeDep node_modules/puppeteer data-uri-to-buffer@5.0.1 OK for: get-uri@6.0.1 want: ^5.0.1
+279 silly placeDep node_modules/puppeteer fs-extra@8.1.0 OK for: get-uri@6.0.1 want: ^8.1.0
+280 silly fetch manifest graceful-fs@^4.2.0
+281 silly fetch manifest jsonfile@^4.0.0
+282 silly fetch manifest universalify@^0.1.0
+283 http fetch GET 200 https://registry.npmjs.org/universalify 113ms (cache revalidated)
+284 http fetch GET 200 https://registry.npmjs.org/graceful-fs 138ms (cache updated)
+285 http fetch GET 200 https://registry.npmjs.org/jsonfile 142ms (cache updated)
+286 timing idealTree:node_modules/puppeteer/node_modules/get-uri Completed in 160ms
+287 timing idealTree:node_modules/puppeteer/node_modules/basic-ftp Completed in 0ms
+288 timing idealTree:node_modules/puppeteer/node_modules/data-uri-to-buffer Completed in 0ms
+289 silly placeDep node_modules/puppeteer graceful-fs@4.2.11 OK for: fs-extra@8.1.0 want: ^4.2.0
+290 silly placeDep node_modules/puppeteer jsonfile@4.0.0 OK for: fs-extra@8.1.0 want: ^4.0.0
+291 silly placeDep node_modules/puppeteer universalify@0.1.2 OK for: fs-extra@8.1.0 want: ^0.1.0
+292 timing idealTree:node_modules/puppeteer/node_modules/fs-extra Completed in 11ms
+293 timing idealTree:node_modules/puppeteer/node_modules/graceful-fs Completed in 0ms
+294 timing idealTree:node_modules/puppeteer/node_modules/jsonfile Completed in 0ms
+295 silly placeDep node_modules/puppeteer degenerator@5.0.1 OK for: pac-resolver@7.0.0 want: ^5.0.0
+296 silly placeDep node_modules/puppeteer ip@1.1.8 OK for: pac-resolver@7.0.0 want: ^1.1.8
+297 silly placeDep node_modules/puppeteer netmask@2.0.2 OK for: pac-resolver@7.0.0 want: ^2.0.2
+298 silly fetch manifest ast-types@^0.13.4
+299 silly fetch manifest escodegen@^2.1.0
+300 silly fetch manifest esprima@^4.0.1
+301 http fetch GET 200 https://registry.npmjs.org/esprima 108ms (cache updated)
+302 http fetch GET 200 https://registry.npmjs.org/ast-types 120ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/escodegen 128ms (cache updated)
+304 timing idealTree:node_modules/puppeteer/node_modules/pac-resolver Completed in 150ms
+305 silly placeDep node_modules/puppeteer ast-types@0.13.4 OK for: degenerator@5.0.1 want: ^0.13.4
+306 silly placeDep node_modules/puppeteer escodegen@2.1.0 OK for: degenerator@5.0.1 want: ^2.1.0
+307 silly placeDep node_modules/puppeteer esprima@4.0.1 OK for: degenerator@5.0.1 want: ^4.0.1
+308 silly fetch manifest tslib@^2.0.1
+309 silly fetch manifest estraverse@^5.2.0
+310 silly fetch manifest esutils@^2.0.2
+311 silly fetch manifest source-map@~0.6.1
+312 http fetch GET 200 https://registry.npmjs.org/esutils 149ms (cache updated)
+313 http fetch GET 200 https://registry.npmjs.org/tslib 154ms (cache updated)
+314 http fetch GET 200 https://registry.npmjs.org/source-map 151ms (cache updated)
+315 http fetch GET 200 https://registry.npmjs.org/estraverse 157ms (cache updated)
+316 timing idealTree:node_modules/puppeteer/node_modules/degenerator Completed in 177ms
+317 silly placeDep node_modules/puppeteer tslib@2.6.2 OK for: ast-types@0.13.4 want: ^2.0.1
+318 timing idealTree:node_modules/puppeteer/node_modules/ast-types Completed in 3ms
+319 silly placeDep node_modules/puppeteer estraverse@5.3.0 OK for: escodegen@2.1.0 want: ^5.2.0
+320 silly placeDep node_modules/puppeteer esutils@2.0.3 OK for: escodegen@2.1.0 want: ^2.0.2
+321 silly placeDep node_modules/puppeteer source-map@0.6.1 OK for: escodegen@2.1.0 want: ~0.6.1
+322 timing idealTree:node_modules/puppeteer/node_modules/escodegen Completed in 8ms
+323 timing idealTree:node_modules/puppeteer/node_modules/esprima Completed in 0ms
+324 timing idealTree:node_modules/puppeteer/node_modules/estraverse Completed in 0ms
+325 timing idealTree:node_modules/puppeteer/node_modules/esutils Completed in 0ms
+326 timing idealTree:node_modules/puppeteer/node_modules/ip Completed in 0ms
+327 timing idealTree:node_modules/puppeteer/node_modules/netmask Completed in 0ms
+328 timing idealTree:node_modules/puppeteer/node_modules/proxy-from-env Completed in 0ms
+329 silly placeDep node_modules/puppeteer end-of-stream@1.4.4 OK for: pump@3.0.0 want: ^1.1.0
+330 silly placeDep node_modules/puppeteer once@1.4.0 OK for: pump@3.0.0 want: ^1.3.1
+331 silly fetch manifest wrappy@1
+332 http fetch GET 200 https://registry.npmjs.org/wrappy 98ms (cache updated)
+333 timing idealTree:node_modules/puppeteer/node_modules/pump Completed in 109ms
+334 timing idealTree:node_modules/puppeteer/node_modules/end-of-stream Completed in 0ms
+335 silly placeDep node_modules/puppeteer wrappy@1.0.2 OK for: once@1.4.0 want: 1
+336 timing idealTree:node_modules/puppeteer/node_modules/once Completed in 3ms
+337 silly fetch manifest bufferutil@^4.0.1
+338 http fetch GET 200 https://registry.npmjs.org/bufferutil 89ms (cache revalidated)
+339 silly fetch manifest utf-8-validate@>=5.0.2
+340 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 93ms (cache updated)
+341 silly placeDep node_modules/puppeteer chromium-bidi@0.4.20 OK for: puppeteer-core@21.1.0 want: 0.4.20
+342 silly placeDep node_modules/puppeteer devtools-protocol@0.0.1159816 OK for: chromium-bidi@0.4.20 want: *
+343 silly placeDep node_modules/puppeteer cross-fetch@4.0.0 OK for: puppeteer-core@21.1.0 want: 4.0.0
+344 silly placeDep node_modules/puppeteer ws@8.13.0 OK for: puppeteer-core@21.1.0 want: 8.13.0
+345 silly fetch manifest mitt@3.0.1
+346 silly fetch manifest node-fetch@^2.6.12
+347 http fetch GET 200 https://registry.npmjs.org/node-fetch 118ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/mitt 373ms (cache miss)
+349 timing idealTree:node_modules/puppeteer/node_modules/puppeteer-core Completed in 583ms
+350 silly placeDep node_modules/puppeteer mitt@3.0.1 OK for: chromium-bidi@0.4.20 want: 3.0.1
+351 timing idealTree:node_modules/puppeteer/node_modules/chromium-bidi Completed in 3ms
+352 silly fetch manifest encoding@^0.1.0
+353 http fetch GET 200 https://registry.npmjs.org/encoding 95ms (cache updated)
+354 silly placeDep node_modules/puppeteer node-fetch@2.7.0 OK for: cross-fetch@4.0.0 want: ^2.6.12
+355 silly fetch manifest whatwg-url@^5.0.0
+356 http fetch GET 200 https://registry.npmjs.org/whatwg-url 149ms (cache updated)
+357 timing idealTree:node_modules/puppeteer/node_modules/cross-fetch Completed in 255ms
+358 timing idealTree:node_modules/puppeteer/node_modules/devtools-protocol Completed in 0ms
+359 timing idealTree:node_modules/puppeteer/node_modules/mitt Completed in 0ms
+360 silly placeDep node_modules/puppeteer whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+361 silly fetch manifest tr46@~0.0.3
+362 silly fetch manifest webidl-conversions@^3.0.0
+363 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 133ms (cache revalidated)
+364 http fetch GET 200 https://registry.npmjs.org/tr46 141ms (cache updated)
+365 timing idealTree:node_modules/puppeteer/node_modules/node-fetch Completed in 147ms
+366 timing idealTree:node_modules/puppeteer/node_modules/resolve-from Completed in 0ms
+367 silly placeDep node_modules/puppeteer socks@2.7.1 OK for: socks-proxy-agent@8.0.1 want: ^2.7.1
+368 silly fetch manifest ip@^2.0.0
+369 silly fetch manifest smart-buffer@^4.2.0
+370 http fetch GET 200 https://registry.npmjs.org/smart-buffer 80ms (cache revalidated)
+371 timing idealTree:node_modules/puppeteer/node_modules/socks-proxy-agent Completed in 87ms
+372 silly placeDep node_modules/puppeteer/node_modules/socks ip@2.0.0 OK for: socks@2.7.1 want: ^2.0.0
+373 silly placeDep node_modules/puppeteer smart-buffer@4.2.0 OK for: socks@2.7.1 want: ^4.2.0
+374 timing idealTree:node_modules/puppeteer/node_modules/socks Completed in 5ms
+375 timing idealTree:node_modules/puppeteer/node_modules/smart-buffer Completed in 0ms
+376 timing idealTree:node_modules/puppeteer/node_modules/source-map Completed in 0ms
+377 silly placeDep node_modules/puppeteer has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+378 timing idealTree:node_modules/puppeteer/node_modules/supports-color Completed in 3ms
+379 timing idealTree:node_modules/puppeteer/node_modules/has-flag Completed in 0ms
+380 silly placeDep node_modules/puppeteer mkdirp-classic@0.5.3 OK for: tar-fs@3.0.4 want: ^0.5.2
+381 silly placeDep node_modules/puppeteer tar-stream@3.1.6 OK for: tar-fs@3.0.4 want: ^3.1.5
+382 silly fetch manifest b4a@^1.6.4
+383 silly fetch manifest fast-fifo@^1.2.0
+384 silly fetch manifest streamx@^2.15.0
+385 http fetch GET 200 https://registry.npmjs.org/b4a 93ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/fast-fifo 93ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/streamx 93ms (cache miss)
+388 timing idealTree:node_modules/puppeteer/node_modules/tar-fs Completed in 106ms
+389 timing idealTree:node_modules/puppeteer/node_modules/mkdirp-classic Completed in 0ms
+390 silly placeDep node_modules/puppeteer b4a@1.6.4 OK for: tar-stream@3.1.6 want: ^1.6.4
+391 silly placeDep node_modules/puppeteer fast-fifo@1.3.2 OK for: tar-stream@3.1.6 want: ^1.2.0
+392 silly placeDep node_modules/puppeteer streamx@2.15.1 OK for: tar-stream@3.1.6 want: ^2.15.0
+393 silly fetch manifest queue-tick@^1.0.1
+394 http fetch GET 200 https://registry.npmjs.org/queue-tick 83ms (cache miss)
+395 timing idealTree:node_modules/puppeteer/node_modules/tar-stream Completed in 94ms
+396 timing idealTree:node_modules/puppeteer/node_modules/b4a Completed in 0ms
+397 timing idealTree:node_modules/puppeteer/node_modules/fast-fifo Completed in 0ms
+398 silly placeDep node_modules/puppeteer queue-tick@1.0.1 OK for: streamx@2.15.1 want: ^1.0.1
+399 timing idealTree:node_modules/puppeteer/node_modules/streamx Completed in 2ms
+400 timing idealTree:node_modules/puppeteer/node_modules/queue-tick Completed in 0ms
+401 timing idealTree:node_modules/puppeteer/node_modules/tslib Completed in 0ms
+402 silly placeDep node_modules/puppeteer buffer@5.7.1 OK for: unbzip2-stream@1.4.3 want: ^5.2.1
+403 silly placeDep node_modules/puppeteer through@2.3.8 OK for: unbzip2-stream@1.4.3 want: ^2.3.8
+404 silly fetch manifest base64-js@^1.3.1
+405 silly fetch manifest ieee754@^1.1.13
+406 http fetch GET 200 https://registry.npmjs.org/base64-js 95ms (cache updated)
+407 http fetch GET 200 https://registry.npmjs.org/ieee754 98ms (cache updated)
+408 timing idealTree:node_modules/puppeteer/node_modules/unbzip2-stream Completed in 105ms
+409 silly placeDep node_modules/puppeteer base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+410 silly placeDep node_modules/puppeteer ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+411 timing idealTree:node_modules/puppeteer/node_modules/buffer Completed in 6ms
+412 timing idealTree:node_modules/puppeteer/node_modules/base64-js Completed in 0ms
+413 timing idealTree:node_modules/puppeteer/node_modules/ieee754 Completed in 0ms
+414 timing idealTree:node_modules/puppeteer/node_modules/through Completed in 0ms
+415 timing idealTree:node_modules/puppeteer/node_modules/universalify Completed in 0ms
+416 silly placeDep node_modules/puppeteer tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+417 silly placeDep node_modules/puppeteer webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+418 timing idealTree:node_modules/puppeteer/node_modules/whatwg-url Completed in 9ms
+419 timing idealTree:node_modules/puppeteer/node_modules/tr46 Completed in 0ms
+420 timing idealTree:node_modules/puppeteer/node_modules/webidl-conversions Completed in 0ms
+421 timing idealTree:node_modules/puppeteer/node_modules/wrappy Completed in 1ms
+422 timing idealTree:node_modules/puppeteer/node_modules/ws Completed in 0ms
+423 silly placeDep node_modules/puppeteer cliui@8.0.1 OK for: yargs@17.7.1 want: ^8.0.1
+424 silly placeDep node_modules/puppeteer escalade@3.1.1 OK for: yargs@17.7.1 want: ^3.1.1
+425 silly placeDep node_modules/puppeteer get-caller-file@2.0.5 OK for: yargs@17.7.1 want: ^2.0.5
+426 silly placeDep node_modules/puppeteer require-directory@2.1.1 OK for: yargs@17.7.1 want: ^2.1.1
+427 silly placeDep node_modules/puppeteer string-width@4.2.3 OK for: yargs@17.7.1 want: ^4.2.3
+428 silly placeDep node_modules/puppeteer y18n@5.0.8 OK for: yargs@17.7.1 want: ^5.0.5
+429 silly placeDep node_modules/puppeteer yargs-parser@21.1.1 OK for: yargs@17.7.1 want: ^21.1.1
+430 silly fetch manifest strip-ansi@^6.0.1
+431 silly fetch manifest wrap-ansi@^7.0.0
+432 silly fetch manifest emoji-regex@^8.0.0
+433 silly fetch manifest is-fullwidth-code-point@^3.0.0
+434 http fetch GET 200 https://registry.npmjs.org/emoji-regex 137ms (cache revalidated)
+435 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 148ms (cache updated)
+436 http fetch GET 200 https://registry.npmjs.org/strip-ansi 152ms (cache updated)
+437 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 1445ms (cache revalidated)
+438 timing idealTree:node_modules/puppeteer/node_modules/yargs Completed in 1474ms
+439 silly placeDep node_modules/puppeteer strip-ansi@6.0.1 OK for: cliui@8.0.1 want: ^6.0.1
+440 silly placeDep node_modules/puppeteer wrap-ansi@7.0.0 OK for: cliui@8.0.1 want: ^7.0.0
+441 silly fetch manifest ansi-regex@^5.0.1
+442 silly fetch manifest ansi-styles@^4.0.0
+443 http fetch GET 200 https://registry.npmjs.org/ansi-regex 132ms (cache updated)
+444 timing idealTree:node_modules/puppeteer/node_modules/cliui Completed in 139ms
+445 timing idealTree:node_modules/puppeteer/node_modules/escalade Completed in 0ms
+446 timing idealTree:node_modules/puppeteer/node_modules/get-caller-file Completed in 0ms
+447 timing idealTree:node_modules/puppeteer/node_modules/require-directory Completed in 0ms
+448 silly placeDep node_modules/puppeteer emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+449 silly placeDep node_modules/puppeteer is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+450 timing idealTree:node_modules/puppeteer/node_modules/string-width Completed in 7ms
+451 timing idealTree:node_modules/puppeteer/node_modules/emoji-regex Completed in 0ms
+452 timing idealTree:node_modules/puppeteer/node_modules/is-fullwidth-code-point Completed in 0ms
+453 silly placeDep node_modules/puppeteer ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+454 timing idealTree:node_modules/puppeteer/node_modules/strip-ansi Completed in 4ms
+455 timing idealTree:node_modules/puppeteer/node_modules/ansi-regex Completed in 0ms
+456 silly placeDep node_modules/puppeteer/node_modules/wrap-ansi ansi-styles@4.3.0 OK for: wrap-ansi@7.0.0 want: ^4.0.0
+457 silly fetch manifest color-convert@^2.0.1
+458 timing idealTree:node_modules/puppeteer/node_modules/wrap-ansi Completed in 2ms
+459 timing idealTree:node_modules/puppeteer/node_modules/y18n Completed in 0ms
+460 timing idealTree:node_modules/puppeteer/node_modules/yargs-parser Completed in 0ms
+461 silly placeDep node_modules/puppeteer buffer-crc32@0.2.13 OK for: yauzl@2.10.0 want: ~0.2.3
+462 silly placeDep node_modules/puppeteer fd-slicer@1.1.0 OK for: yauzl@2.10.0 want: ~1.1.0
+463 silly fetch manifest pend@~1.2.0
+464 http fetch GET 200 https://registry.npmjs.org/pend 96ms (cache miss)
+465 timing idealTree:node_modules/puppeteer/node_modules/yauzl Completed in 103ms
+466 timing idealTree:node_modules/puppeteer/node_modules/buffer-crc32 Completed in 0ms
+467 silly placeDep node_modules/puppeteer pend@1.2.0 OK for: fd-slicer@1.1.0 want: ~1.2.0
+468 timing idealTree:node_modules/puppeteer/node_modules/fd-slicer Completed in 3ms
+469 timing idealTree:node_modules/puppeteer/node_modules/pend Completed in 0ms
+470 timing idealTree:node_modules/puppeteer/node_modules/socks/node_modules/ip Completed in 0ms
+471 silly placeDep node_modules/puppeteer/node_modules/wrap-ansi color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+472 silly fetch manifest color-name@~1.1.4
+473 timing idealTree:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/ansi-styles Completed in 6ms
+474 silly placeDep node_modules/puppeteer/node_modules/wrap-ansi color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+475 timing idealTree:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-convert Completed in 5ms
+476 timing idealTree:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-name Completed in 0ms
+477 timing idealTree:buildDeps Completed in 8262ms
+478 timing idealTree:fixDepFlags Completed in 6ms
+479 timing idealTree Completed in 8300ms
+480 timing reify:loadTrees Completed in 8311ms
+481 timing reify:diffTrees Completed in 17ms
+482 silly reify moves {}
+483 timing reify:retireShallow Completed in 3ms
+484 timing reify:createSparse Completed in 131ms
+485 timing reify:loadBundles Completed in 0ms
+486 silly audit bulk request {
+486 silly audit   puppeteer: [ '21.1.0' ],
+486 silly audit   '@puppeteer/browsers': [ '1.7.0' ],
+486 silly audit   cosmiconfig: [ '8.2.0' ],
+486 silly audit   'puppeteer-core': [ '21.1.0' ],
+486 silly audit   debug: [ '4.3.4' ],
+486 silly audit   'extract-zip': [ '2.0.1' ],
+486 silly audit   progress: [ '2.0.3' ],
+486 silly audit   'proxy-agent': [ '6.3.0' ],
+486 silly audit   'tar-fs': [ '3.0.4' ],
+486 silly audit   'unbzip2-stream': [ '1.4.3' ],
+486 silly audit   yargs: [ '17.7.1' ],
+486 silly audit   'import-fresh': [ '3.3.0' ],
+486 silly audit   'js-yaml': [ '4.1.0' ],
+486 silly audit   'parse-json': [ '5.2.0' ],
+486 silly audit   'path-type': [ '4.0.0' ],
+486 silly audit   ms: [ '2.1.2' ],
+486 silly audit   '@types/yauzl': [ '2.10.0' ],
+486 silly audit   'get-stream': [ '5.2.0' ],
+486 silly audit   yauzl: [ '2.10.0' ],
+486 silly audit   '@types/node': [ '20.5.6' ],
+486 silly audit   pump: [ '3.0.0' ],
+486 silly audit   'parent-module': [ '1.0.1' ],
+486 silly audit   'resolve-from': [ '4.0.0' ],
+486 silly audit   argparse: [ '2.0.1' ],
+486 silly audit   callsites: [ '3.1.0' ],
+486 silly audit   '@babel/code-frame': [ '7.22.10' ],
+486 silly audit   'error-ex': [ '1.3.2' ],
+486 silly audit   'json-parse-even-better-errors': [ '2.3.1' ],
+486 silly audit   'lines-and-columns': [ '1.2.4' ],
+486 silly audit   '@babel/highlight': [ '7.22.10' ],
+486 silly audit   chalk: [ '2.4.2' ],
+486 silly audit   '@babel/helper-validator-identifier': [ '7.22.5' ],
+486 silly audit   'js-tokens': [ '4.0.0' ],
+486 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+486 silly audit   'escape-string-regexp': [ '1.0.5' ],
+486 silly audit   'supports-color': [ '5.5.0' ],
+486 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+486 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+486 silly audit   'is-arrayish': [ '0.2.1' ],
+486 silly audit   'agent-base': [ '7.1.0' ],
+486 silly audit   'http-proxy-agent': [ '7.0.0' ],
+486 silly audit   'https-proxy-agent': [ '7.0.1' ],
+486 silly audit   'lru-cache': [ '7.18.3' ],
+486 silly audit   'pac-proxy-agent': [ '7.0.0' ],
+486 silly audit   'proxy-from-env': [ '1.1.0' ],
+486 silly audit   'socks-proxy-agent': [ '8.0.1' ],
+486 silly audit   '@tootallnate/quickjs-emscripten': [ '0.23.0' ],
+486 silly audit   'get-uri': [ '6.0.1' ],
+486 silly audit   'pac-resolver': [ '7.0.0' ],
+486 silly audit   'basic-ftp': [ '5.0.3' ],
+486 silly audit   'data-uri-to-buffer': [ '5.0.1' ],
+486 silly audit   'fs-extra': [ '8.1.0' ],
+486 silly audit   'graceful-fs': [ '4.2.11' ],
+486 silly audit   jsonfile: [ '4.0.0' ],
+486 silly audit   universalify: [ '0.1.2' ],
+486 silly audit   degenerator: [ '5.0.1' ],
+486 silly audit   ip: [ '1.1.8', '2.0.0' ],
+486 silly audit   netmask: [ '2.0.2' ],
+486 silly audit   'ast-types': [ '0.13.4' ],
+486 silly audit   escodegen: [ '2.1.0' ],
+486 silly audit   esprima: [ '4.0.1' ],
+486 silly audit   tslib: [ '2.6.2' ],
+486 silly audit   estraverse: [ '5.3.0' ],
+486 silly audit   esutils: [ '2.0.3' ],
+486 silly audit   'source-map': [ '0.6.1' ],
+486 silly audit   'end-of-stream': [ '1.4.4' ],
+486 silly audit   once: [ '1.4.0' ],
+486 silly audit   wrappy: [ '1.0.2' ],
+486 silly audit   'chromium-bidi': [ '0.4.20' ],
+486 silly audit   'devtools-protocol': [ '0.0.1159816' ],
+486 silly audit   'cross-fetch': [ '4.0.0' ],
+486 silly audit   ws: [ '8.13.0' ],
+486 silly audit   mitt: [ '3.0.1' ],
+486 silly audit   'node-fetch': [ '2.7.0' ],
+486 silly audit   'whatwg-url': [ '5.0.0' ],
+486 silly audit   socks: [ '2.7.1' ],
+486 silly audit   'smart-buffer': [ '4.2.0' ],
+486 silly audit   'has-flag': [ '3.0.0' ],
+486 silly audit   'mkdirp-classic': [ '0.5.3' ],
+486 silly audit   'tar-stream': [ '3.1.6' ],
+486 silly audit   b4a: [ '1.6.4' ],
+486 silly audit   'fast-fifo': [ '1.3.2' ],
+486 silly audit   streamx: [ '2.15.1' ],
+486 silly audit   'queue-tick': [ '1.0.1' ],
+486 silly audit   buffer: [ '5.7.1' ],
+486 silly audit   through: [ '2.3.8' ],
+486 silly audit   'base64-js': [ '1.5.1' ],
+486 silly audit   ieee754: [ '1.2.1' ],
+486 silly audit   tr46: [ '0.0.3' ],
+486 silly audit   'webidl-conversions': [ '3.0.1' ],
+486 silly audit   cliui: [ '8.0.1' ],
+486 silly audit   escalade: [ '3.1.1' ],
+486 silly audit   'get-caller-file': [ '2.0.5' ],
+486 silly audit   'require-directory': [ '2.1.1' ],
+486 silly audit   'string-width': [ '4.2.3' ],
+486 silly audit   y18n: [ '5.0.8' ],
+486 silly audit   'yargs-parser': [ '21.1.1' ],
+486 silly audit   'strip-ansi': [ '6.0.1' ],
+486 silly audit   'wrap-ansi': [ '7.0.0' ],
+486 silly audit   'emoji-regex': [ '8.0.0' ],
+486 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+486 silly audit   'ansi-regex': [ '5.0.1' ],
+486 silly audit   'buffer-crc32': [ '0.2.13' ],
+486 silly audit   'fd-slicer': [ '1.1.0' ],
+486 silly audit   pend: [ '1.2.0' ]
+486 silly audit }
+487 silly tarball no local data for puppeteer@https://registry.npmjs.org/puppeteer/-/puppeteer-21.1.0.tgz. Extracting by manifest.
+488 silly tarball no local data for fd-slicer@https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz. Extracting by manifest.
+489 silly tarball no local data for pend@https://registry.npmjs.org/pend/-/pend-1.2.0.tgz. Extracting by manifest.
+490 silly tarball no local data for buffer-crc32@https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz. Extracting by manifest.
+491 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+492 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+493 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz. Extracting by manifest.
+494 silly tarball no local data for queue-tick@https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz. Extracting by manifest.
+495 silly tarball no local data for streamx@https://registry.npmjs.org/streamx/-/streamx-2.15.1.tgz. Extracting by manifest.
+496 silly tarball no local data for b4a@https://registry.npmjs.org/b4a/-/b4a-1.6.4.tgz. Extracting by manifest.
+497 silly tarball no local data for tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-3.1.6.tgz. Extracting by manifest.
+498 silly tarball no local data for fast-fifo@https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz. Extracting by manifest.
+499 silly tarball no local data for mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz. Extracting by manifest.
+500 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz. Extracting by manifest.
+501 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+502 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.13.0.tgz. Extracting by manifest.
+503 silly tarball no local data for cross-fetch@https://registry.npmjs.org/cross-fetch/-/cross-fetch-4.0.0.tgz. Extracting by manifest.
+504 silly tarball no local data for mitt@https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz. Extracting by manifest.
+505 silly tarball no local data for chromium-bidi@https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-0.4.20.tgz. Extracting by manifest.
+506 silly tarball no local data for devtools-protocol@https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1159816.tgz. Extracting by manifest.
+507 silly tarball no local data for end-of-stream@https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz. Extracting by manifest.
+508 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz. Extracting by manifest.
+509 silly tarball no local data for escodegen@https://registry.npmjs.org/escodegen/-/escodegen-2.1.0.tgz. Extracting by manifest.
+510 silly tarball no local data for ast-types@https://registry.npmjs.org/ast-types/-/ast-types-0.13.4.tgz. Extracting by manifest.
+511 silly tarball no local data for netmask@https://registry.npmjs.org/netmask/-/netmask-2.0.2.tgz. Extracting by manifest.
+512 silly tarball no local data for ip@https://registry.npmjs.org/ip/-/ip-1.1.8.tgz. Extracting by manifest.
+513 silly tarball no local data for degenerator@https://registry.npmjs.org/degenerator/-/degenerator-5.0.1.tgz. Extracting by manifest.
+514 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+515 silly tarball no local data for basic-ftp@https://registry.npmjs.org/basic-ftp/-/basic-ftp-5.0.3.tgz. Extracting by manifest.
+516 silly tarball no local data for get-uri@https://registry.npmjs.org/get-uri/-/get-uri-6.0.1.tgz. Extracting by manifest.
+517 silly tarball no local data for @tootallnate/quickjs-emscripten@https://registry.npmjs.org/@tootallnate/quickjs-emscripten/-/quickjs-emscripten-0.23.0.tgz. Extracting by manifest.
+518 silly tarball no local data for data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-5.0.1.tgz. Extracting by manifest.
+519 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+520 silly tarball no local data for socks-proxy-agent@https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.1.tgz. Extracting by manifest.
+521 silly tarball no local data for pac-resolver@https://registry.npmjs.org/pac-resolver/-/pac-resolver-7.0.0.tgz. Extracting by manifest.
+522 silly tarball no local data for lru-cache@https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz. Extracting by manifest.
+523 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.1.tgz. Extracting by manifest.
+524 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-7.1.0.tgz. Extracting by manifest.
+525 silly tarball no local data for pac-proxy-agent@https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-7.0.0.tgz. Extracting by manifest.
+526 silly tarball no local data for http-proxy-agent@https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-7.0.0.tgz. Extracting by manifest.
+527 silly tarball no local data for @babel/highlight@https://registry.npmjs.org/@babel/highlight/-/highlight-7.22.10.tgz. Extracting by manifest.
+528 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.5.tgz. Extracting by manifest.
+529 silly tarball no local data for @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.22.10.tgz. Extracting by manifest.
+530 silly tarball no local data for pump@https://registry.npmjs.org/pump/-/pump-3.0.0.tgz. Extracting by manifest.
+531 silly tarball no local data for get-stream@https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz. Extracting by manifest.
+532 silly tarball no local data for yauzl@https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz. Extracting by manifest.
+533 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.5.6.tgz. Extracting by manifest.
+534 silly tarball no local data for @types/yauzl@https://registry.npmjs.org/@types/yauzl/-/yauzl-2.10.0.tgz. Extracting by manifest.
+535 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-17.7.1.tgz. Extracting by manifest.
+536 silly tarball no local data for unbzip2-stream@https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz. Extracting by manifest.
+537 silly tarball no local data for proxy-agent@https://registry.npmjs.org/proxy-agent/-/proxy-agent-6.3.0.tgz. Extracting by manifest.
+538 silly tarball no local data for extract-zip@https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz. Extracting by manifest.
+539 silly tarball no local data for progress@https://registry.npmjs.org/progress/-/progress-2.0.3.tgz. Extracting by manifest.
+540 silly tarball no local data for tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-3.0.4.tgz. Extracting by manifest.
+541 silly tarball no local data for puppeteer-core@https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-21.1.0.tgz. Extracting by manifest.
+542 silly tarball no local data for @puppeteer/browsers@https://registry.npmjs.org/@puppeteer/browsers/-/browsers-1.7.0.tgz. Extracting by manifest.
+543 silly tarball no local data for cosmiconfig@https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.2.0.tgz. Extracting by manifest.
+544 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 723ms
+545 timing auditReport:getReport Completed in 736ms
+546 silly audit report {}
+547 timing auditReport:init Completed in 0ms
+548 timing reify:audit Completed in 738ms
+549 timing reifyNode:node_modules/puppeteer/node_modules/socks/node_modules/ip Completed in 1697ms
+550 http fetch GET 200 https://registry.npmjs.org/pend/-/pend-1.2.0.tgz 1582ms (cache miss)
+551 http fetch GET 200 https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz 1587ms (cache miss)
+552 timing reifyNode:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-name Completed in 1788ms
+553 timing reifyNode:node_modules/puppeteer/node_modules/wrap-ansi Completed in 1789ms
+554 timing reifyNode:node_modules/puppeteer/node_modules/has-flag Completed in 1785ms
+555 timing reifyNode:node_modules/puppeteer/node_modules/once Completed in 1784ms
+556 timing reifyNode:node_modules/puppeteer/node_modules/universalify Completed in 1795ms
+557 timing reifyNode:node_modules/puppeteer/node_modules/wrappy Completed in 1797ms
+558 timing reifyNode:node_modules/puppeteer/node_modules/escape-string-regexp Completed in 1800ms
+559 timing reifyNode:node_modules/puppeteer/node_modules/ansi-styles Completed in 1801ms
+560 timing reifyNode:node_modules/puppeteer/node_modules/error-ex Completed in 1801ms
+561 timing reifyNode:node_modules/puppeteer/node_modules/resolve-from Completed in 1801ms
+562 timing reifyNode:node_modules/puppeteer/node_modules/ms Completed in 1800ms
+563 timing reifyNode:node_modules/puppeteer/node_modules/parent-module Completed in 1802ms
+564 timing reifyNode:node_modules/puppeteer/node_modules/parse-json Completed in 1801ms
+565 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 1604ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 1612ms (cache miss)
+567 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 1563ms (cache miss)
+568 timing reifyNode:node_modules/puppeteer/node_modules/buffer-crc32 Completed in 1863ms
+569 http fetch GET 200 https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz 1588ms (cache miss)
+570 http fetch GET 200 https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz 1598ms (cache miss)
+571 timing reifyNode:node_modules/puppeteer/node_modules/webidl-conversions Completed in 1889ms
+572 timing reifyNode:node_modules/puppeteer/node_modules/end-of-stream Completed in 1888ms
+573 http fetch GET 200 https://registry.npmjs.org/netmask/-/netmask-2.0.2.tgz 1615ms (cache miss)
+574 timing reifyNode:node_modules/puppeteer/node_modules/ansi-regex Completed in 1926ms
+575 timing reifyNode:node_modules/puppeteer/node_modules/strip-ansi Completed in 1926ms
+576 timing reifyNode:node_modules/puppeteer/node_modules/ieee754 Completed in 1926ms
+577 timing reifyNode:node_modules/puppeteer/node_modules/string-width Completed in 1930ms
+578 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 1686ms (cache miss)
+579 timing reifyNode:node_modules/puppeteer/node_modules/mkdirp-classic Completed in 1929ms
+580 http fetch GET 200 https://registry.npmjs.org/ip/-/ip-1.1.8.tgz 1642ms (cache miss)
+581 timing reifyNode:node_modules/puppeteer/node_modules/ip Completed in 1927ms
+582 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 1636ms (cache miss)
+583 http fetch GET 200 https://registry.npmjs.org/get-uri/-/get-uri-6.0.1.tgz 1622ms (cache miss)
+584 timing reifyNode:node_modules/puppeteer/node_modules/is-fullwidth-code-point Completed in 1940ms
+585 timing reifyNode:node_modules/puppeteer/node_modules/supports-color Completed in 1936ms
+586 timing reifyNode:node_modules/puppeteer/node_modules/json-parse-even-better-errors Completed in 1936ms
+587 timing reifyNode:node_modules/puppeteer/node_modules/callsites Completed in 1936ms
+588 timing reifyNode:node_modules/puppeteer/node_modules/path-type Completed in 1935ms
+589 timing reifyNode:node_modules/puppeteer/node_modules/import-fresh Completed in 1935ms
+590 timing reifyNode:node_modules/puppeteer/node_modules/pend Completed in 1954ms
+591 timing reifyNode:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/ansi-styles Completed in 1957ms
+592 timing reifyNode:node_modules/puppeteer/node_modules/jsonfile Completed in 1951ms
+593 http fetch GET 200 https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.1.tgz 1648ms (cache miss)
+594 timing reifyNode:node_modules/puppeteer/node_modules/js-tokens Completed in 1977ms
+595 timing reifyNode:node_modules/puppeteer/node_modules/lines-and-columns Completed in 1977ms
+596 http fetch GET 200 https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-7.0.0.tgz 1669ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.22.10.tgz 1656ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.5.tgz 1663ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz 1648ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz 1789ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/@types/yauzl/-/yauzl-2.10.0.tgz 1658ms (cache miss)
+602 timing reifyNode:node_modules/puppeteer/node_modules/get-caller-file Completed in 2053ms
+603 timing reifyNode:node_modules/puppeteer/node_modules/base64-js Completed in 2057ms
+604 timing reifyNode:node_modules/puppeteer/node_modules/@types/yauzl Completed in 2052ms
+605 http fetch GET 200 https://registry.npmjs.org/tar-fs/-/tar-fs-3.0.4.tgz 1667ms (cache miss)
+606 timing reifyNode:node_modules/puppeteer/node_modules/fast-fifo Completed in 2079ms
+607 timing reifyNode:node_modules/puppeteer/node_modules/estraverse Completed in 2102ms
+608 http fetch GET 200 https://registry.npmjs.org/@babel/highlight/-/highlight-7.22.10.tgz 1774ms (cache miss)
+609 timing reifyNode:node_modules/puppeteer/node_modules/tar-fs Completed in 2110ms
+610 timing reifyNode:node_modules/puppeteer/node_modules/color-name Completed in 2143ms
+611 timing reifyNode:node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-convert Completed in 2168ms
+612 timing reifyNode:node_modules/puppeteer/node_modules/require-directory Completed in 2168ms
+613 timing reifyNode:node_modules/puppeteer/node_modules/buffer Completed in 2169ms
+614 timing reifyNode:node_modules/puppeteer/node_modules/@babel/highlight Completed in 2166ms
+615 timing reifyNode:node_modules/puppeteer/node_modules/@babel/code-frame Completed in 2168ms
+616 timing reifyNode:node_modules/puppeteer/node_modules/color-convert Completed in 2173ms
+617 timing reifyNode:node_modules/puppeteer/node_modules/chalk Completed in 2203ms
+618 timing reifyNode:node_modules/puppeteer/node_modules/debug Completed in 2200ms
+619 http fetch GET 200 https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz 2001ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz 1842ms (cache miss)
+621 timing reifyNode:node_modules/puppeteer/node_modules/esutils Completed in 2240ms
+622 timing reifyNode:node_modules/puppeteer/node_modules/get-stream Completed in 2244ms
+623 timing reifyNode:node_modules/puppeteer/node_modules/is-arrayish Completed in 2252ms
+624 timing reifyNode:node_modules/puppeteer/node_modules/graceful-fs Completed in 2266ms
+625 http fetch GET 200 https://registry.npmjs.org/escodegen/-/escodegen-2.1.0.tgz 2006ms (cache miss)
+626 timing reifyNode:node_modules/puppeteer/node_modules/queue-tick Completed in 2289ms
+627 http fetch GET 200 https://registry.npmjs.org/pump/-/pump-3.0.0.tgz 1930ms (cache miss)
+628 timing reifyNode:node_modules/puppeteer/node_modules/extract-zip Completed in 2288ms
+629 timing reifyNode:node_modules/puppeteer/node_modules/emoji-regex Completed in 2306ms
+630 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-5.0.1.tgz 1998ms (cache miss)
+631 timing reifyNode:node_modules/puppeteer/node_modules/fd-slicer Completed in 2326ms
+632 http fetch GET 200 https://registry.npmjs.org/progress/-/progress-2.0.3.tgz 1936ms (cache miss)
+633 timing reifyNode:node_modules/puppeteer/node_modules/escodegen Completed in 2333ms
+634 timing reifyNode:node_modules/puppeteer/node_modules/pump Completed in 2336ms
+635 timing reifyNode:node_modules/puppeteer/node_modules/whatwg-url Completed in 2350ms
+636 timing reifyNode:node_modules/puppeteer/node_modules/escalade Completed in 2354ms
+637 timing reifyNode:node_modules/puppeteer/node_modules/data-uri-to-buffer Completed in 2350ms
+638 http fetch GET 200 https://registry.npmjs.org/streamx/-/streamx-2.15.1.tgz 2128ms (cache miss)
+639 timing reifyNode:node_modules/puppeteer/node_modules/streamx Completed in 2358ms
+640 timing reifyNode:node_modules/puppeteer/node_modules/socks-proxy-agent Completed in 2352ms
+641 http fetch GET 200 https://registry.npmjs.org/proxy-agent/-/proxy-agent-6.3.0.tgz 1970ms (cache miss)
+642 timing reifyNode:node_modules/puppeteer/node_modules/argparse Completed in 2356ms
+643 timing reifyNode:node_modules/puppeteer/node_modules/progress Completed in 2365ms
+644 timing reifyNode:node_modules/puppeteer/node_modules/y18n Completed in 2384ms
+645 timing reifyNode:node_modules/puppeteer/node_modules/proxy-agent Completed in 2402ms
+646 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-3.1.6.tgz 2273ms (cache miss)
+647 timing reifyNode:node_modules/puppeteer/node_modules/tar-stream Completed in 2511ms
+648 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 2214ms (cache miss)
+649 timing reifyNode:node_modules/puppeteer/node_modules/proxy-from-env Completed in 2528ms
+650 http fetch GET 200 https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-7.0.0.tgz 2201ms (cache miss)
+651 timing reifyNode:node_modules/puppeteer/node_modules/pac-proxy-agent Completed in 2530ms
+652 timing reifyNode:node_modules/puppeteer/node_modules/http-proxy-agent Completed in 2541ms
+653 timing reifyNode:node_modules/puppeteer/node_modules/mitt Completed in 2563ms
+654 timing reifyNode:node_modules/puppeteer/node_modules/through Completed in 2589ms
+655 http fetch GET 200 https://registry.npmjs.org/b4a/-/b4a-1.6.4.tgz 2357ms (cache miss)
+656 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz 2379ms (cache miss)
+657 timing reifyNode:node_modules/puppeteer/node_modules/cliui Completed in 2596ms
+658 http fetch GET 200 https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz 2224ms (cache miss)
+659 timing reifyNode:node_modules/puppeteer/node_modules/yauzl Completed in 2587ms
+660 timing reifyNode:node_modules/puppeteer/node_modules/esprima Completed in 2614ms
+661 timing reifyNode:node_modules/puppeteer/node_modules/b4a Completed in 2625ms
+662 timing reifyNode:node_modules/puppeteer/node_modules/netmask Completed in 2622ms
+663 timing reifyNode:node_modules/puppeteer/node_modules/@babel/helper-validator-identifier Completed in 2645ms
+664 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-7.1.0.tgz 2335ms (cache miss)
+665 timing reifyNode:node_modules/puppeteer/node_modules/yargs-parser Completed in 2683ms
+666 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.1.tgz 2361ms (cache miss)
+667 timing reifyNode:node_modules/puppeteer/node_modules/agent-base Completed in 2686ms
+668 timing reifyNode:node_modules/puppeteer/node_modules/https-proxy-agent Completed in 2707ms
+669 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz 2509ms (cache miss)
+670 timing reifyNode:node_modules/puppeteer/node_modules/smart-buffer Completed in 2836ms
+671 http fetch GET 200 https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz 2510ms (cache miss)
+672 timing reifyNode:node_modules/puppeteer/node_modules/lru-cache Completed in 2831ms
+673 timing reifyNode:node_modules/puppeteer/node_modules/tslib Completed in 2837ms
+674 http fetch GET 200 https://registry.npmjs.org/cross-fetch/-/cross-fetch-4.0.0.tgz 2606ms (cache miss)
+675 http fetch GET 200 https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz 2497ms (cache miss)
+676 timing reifyNode:node_modules/puppeteer/node_modules/unbzip2-stream Completed in 2873ms
+677 http fetch GET 200 https://registry.npmjs.org/degenerator/-/degenerator-5.0.1.tgz 2597ms (cache miss)
+678 timing reifyNode:node_modules/puppeteer/node_modules/cross-fetch Completed in 2904ms
+679 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 2705ms (cache miss)
+680 timing reifyNode:node_modules/puppeteer/node_modules/tr46 Completed in 2919ms
+681 timing reifyNode:node_modules/puppeteer/node_modules/degenerator Completed in 2921ms
+682 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 2719ms (cache miss)
+683 timing reifyNode:node_modules/puppeteer/node_modules/node-fetch Completed in 2964ms
+684 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.13.0.tgz 2789ms (cache miss)
+685 timing reifyNode:node_modules/puppeteer/node_modules/ws Completed in 3066ms
+686 timing reifyNode:node_modules/puppeteer/node_modules/get-uri Completed in 3541ms
+687 timing reifyNode:node_modules/puppeteer/node_modules/source-map Completed in 3547ms
+688 http fetch GET 200 https://registry.npmjs.org/basic-ftp/-/basic-ftp-5.0.3.tgz 3300ms (cache miss)
+689 timing reifyNode:node_modules/puppeteer/node_modules/basic-ftp Completed in 3616ms
+690 timing reifyNode:node_modules/puppeteer/node_modules/socks Completed in 3712ms
+691 timing reifyNode:node_modules/puppeteer/node_modules/js-yaml Completed in 3765ms
+692 timing reifyNode:node_modules/puppeteer/node_modules/fs-extra Completed in 3802ms
+693 http fetch GET 200 https://registry.npmjs.org/puppeteer/-/puppeteer-21.1.0.tgz 3679ms (cache miss)
+694 timing reifyNode:node_modules/puppeteer Completed in 3877ms
+695 http fetch GET 200 https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.2.0.tgz 3547ms (cache miss)
+696 timing reifyNode:node_modules/puppeteer/node_modules/cosmiconfig Completed in 3957ms
+697 http fetch GET 200 https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1159816.tgz 3725ms (cache miss)
+698 timing reifyNode:node_modules/puppeteer/node_modules/devtools-protocol Completed in 3993ms
+699 http fetch GET 200 https://registry.npmjs.org/pac-resolver/-/pac-resolver-7.0.0.tgz 3785ms (cache miss)
+700 timing reifyNode:node_modules/puppeteer/node_modules/pac-resolver Completed in 4118ms
+701 http fetch GET 200 https://registry.npmjs.org/ast-types/-/ast-types-0.13.4.tgz 3960ms (cache miss)
+702 timing reifyNode:node_modules/puppeteer/node_modules/ast-types Completed in 4252ms
+703 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-17.7.1.tgz 3910ms (cache miss)
+704 timing reifyNode:node_modules/puppeteer/node_modules/yargs Completed in 4287ms
+705 http fetch GET 200 https://registry.npmjs.org/@tootallnate/quickjs-emscripten/-/quickjs-emscripten-0.23.0.tgz 4213ms (cache miss)
+706 timing reifyNode:node_modules/puppeteer/node_modules/@tootallnate/quickjs-emscripten Completed in 4524ms
+707 http fetch GET 200 https://registry.npmjs.org/@puppeteer/browsers/-/browsers-1.7.0.tgz 4594ms (cache miss)
+708 timing reifyNode:node_modules/puppeteer/node_modules/@puppeteer/browsers Completed in 4995ms
+709 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.5.6.tgz 4734ms (cache miss)
+710 timing reifyNode:node_modules/puppeteer/node_modules/@types/node Completed in 5103ms
+711 http fetch GET 200 https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-0.4.20.tgz 5252ms (cache miss)
+712 timing reifyNode:node_modules/puppeteer/node_modules/chromium-bidi Completed in 5526ms
+713 http fetch GET 200 https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-21.1.0.tgz 11390ms (cache miss)
+714 timing reifyNode:node_modules/puppeteer/node_modules/puppeteer-core Completed in 11782ms
+715 timing reify:unpack Completed in 11802ms
+716 timing reify:unretire Completed in 0ms
+717 timing build:queue Completed in 15ms
+718 timing build:link:node_modules/puppeteer/node_modules/@puppeteer/browsers Completed in 44ms
+719 timing build:link:node_modules/puppeteer/node_modules/esprima Completed in 42ms
+720 timing build:link:node_modules/puppeteer/node_modules/escodegen Completed in 43ms
+721 timing build:link:node_modules/puppeteer/node_modules/js-yaml Completed in 42ms
+722 timing build:link:node_modules/puppeteer/node_modules/extract-zip Completed in 42ms
+723 timing build:link Completed in 46ms
+724 info run puppeteer@21.1.0 postinstall node_modules/puppeteer node install.js
+725 info run puppeteer@21.1.0 postinstall { code: 0, signal: null }
+726 timing build:run:postinstall:node_modules/puppeteer Completed in 46163ms
+727 timing build:run:postinstall Completed in 46165ms
+728 timing build:deps Completed in 46228ms
+729 timing build Completed in 46229ms
+730 timing reify:build Completed in 46230ms
+731 timing reify:trash Completed in 1ms
+732 timing reify Completed in 66555ms
+733 silly ADD node_modules/puppeteer
+734 silly ADD node_modules/puppeteer/node_modules/pend
+735 silly ADD node_modules/puppeteer/node_modules/fd-slicer
+736 silly ADD node_modules/puppeteer/node_modules/buffer-crc32
+737 silly ADD node_modules/puppeteer/node_modules/ansi-regex
+738 silly ADD node_modules/puppeteer/node_modules/is-fullwidth-code-point
+739 silly ADD node_modules/puppeteer/node_modules/emoji-regex
+740 silly ADD node_modules/puppeteer/node_modules/wrap-ansi
+741 silly ADD node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-name
+742 silly ADD node_modules/puppeteer/node_modules/wrap-ansi/node_modules/color-convert
+743 silly ADD node_modules/puppeteer/node_modules/wrap-ansi/node_modules/ansi-styles
+744 silly ADD node_modules/puppeteer/node_modules/strip-ansi
+745 silly ADD node_modules/puppeteer/node_modules/yargs-parser
+746 silly ADD node_modules/puppeteer/node_modules/y18n
+747 silly ADD node_modules/puppeteer/node_modules/string-width
+748 silly ADD node_modules/puppeteer/node_modules/require-directory
+749 silly ADD node_modules/puppeteer/node_modules/get-caller-file
+750 silly ADD node_modules/puppeteer/node_modules/escalade
+751 silly ADD node_modules/puppeteer/node_modules/cliui
+752 silly ADD node_modules/puppeteer/node_modules/webidl-conversions
+753 silly ADD node_modules/puppeteer/node_modules/tr46
+754 silly ADD node_modules/puppeteer/node_modules/ieee754
+755 silly ADD node_modules/puppeteer/node_modules/base64-js
+756 silly ADD node_modules/puppeteer/node_modules/through
+757 silly ADD node_modules/puppeteer/node_modules/buffer
+758 silly ADD node_modules/puppeteer/node_modules/queue-tick
+759 silly ADD node_modules/puppeteer/node_modules/streamx
+760 silly ADD node_modules/puppeteer/node_modules/fast-fifo
+761 silly ADD node_modules/puppeteer/node_modules/b4a
+762 silly ADD node_modules/puppeteer/node_modules/tar-stream
+763 silly ADD node_modules/puppeteer/node_modules/mkdirp-classic
+764 silly ADD node_modules/puppeteer/node_modules/has-flag
+765 silly ADD node_modules/puppeteer/node_modules/smart-buffer
+766 silly ADD node_modules/puppeteer/node_modules/socks
+767 silly ADD node_modules/puppeteer/node_modules/socks/node_modules/ip
+768 silly ADD node_modules/puppeteer/node_modules/whatwg-url
+769 silly ADD node_modules/puppeteer/node_modules/node-fetch
+770 silly ADD node_modules/puppeteer/node_modules/mitt
+771 silly ADD node_modules/puppeteer/node_modules/ws
+772 silly ADD node_modules/puppeteer/node_modules/cross-fetch
+773 silly ADD node_modules/puppeteer/node_modules/devtools-protocol
+774 silly ADD node_modules/puppeteer/node_modules/chromium-bidi
+775 silly ADD node_modules/puppeteer/node_modules/wrappy
+776 silly ADD node_modules/puppeteer/node_modules/once
+777 silly ADD node_modules/puppeteer/node_modules/end-of-stream
+778 silly ADD node_modules/puppeteer/node_modules/source-map
+779 silly ADD node_modules/puppeteer/node_modules/esutils
+780 silly ADD node_modules/puppeteer/node_modules/estraverse
+781 silly ADD node_modules/puppeteer/node_modules/tslib
+782 silly ADD node_modules/puppeteer/node_modules/esprima
+783 silly ADD node_modules/puppeteer/node_modules/escodegen
+784 silly ADD node_modules/puppeteer/node_modules/ast-types
+785 silly ADD node_modules/puppeteer/node_modules/netmask
+786 silly ADD node_modules/puppeteer/node_modules/ip
+787 silly ADD node_modules/puppeteer/node_modules/degenerator
+788 silly ADD node_modules/puppeteer/node_modules/universalify
+789 silly ADD node_modules/puppeteer/node_modules/jsonfile
+790 silly ADD node_modules/puppeteer/node_modules/graceful-fs
+791 silly ADD node_modules/puppeteer/node_modules/fs-extra
+792 silly ADD node_modules/puppeteer/node_modules/data-uri-to-buffer
+793 silly ADD node_modules/puppeteer/node_modules/basic-ftp
+794 silly ADD node_modules/puppeteer/node_modules/pac-resolver
+795 silly ADD node_modules/puppeteer/node_modules/get-uri
+796 silly ADD node_modules/puppeteer/node_modules/@tootallnate/quickjs-emscripten
+797 silly ADD node_modules/puppeteer/node_modules/socks-proxy-agent
+798 silly ADD node_modules/puppeteer/node_modules/proxy-from-env
+799 silly ADD node_modules/puppeteer/node_modules/pac-proxy-agent
+800 silly ADD node_modules/puppeteer/node_modules/lru-cache
+801 silly ADD node_modules/puppeteer/node_modules/https-proxy-agent
+802 silly ADD node_modules/puppeteer/node_modules/http-proxy-agent
+803 silly ADD node_modules/puppeteer/node_modules/agent-base
+804 silly ADD node_modules/puppeteer/node_modules/is-arrayish
+805 silly ADD node_modules/puppeteer/node_modules/color-name
+806 silly ADD node_modules/puppeteer/node_modules/color-convert
+807 silly ADD node_modules/puppeteer/node_modules/supports-color
+808 silly ADD node_modules/puppeteer/node_modules/escape-string-regexp
+809 silly ADD node_modules/puppeteer/node_modules/ansi-styles
+810 silly ADD node_modules/puppeteer/node_modules/js-tokens
+811 silly ADD node_modules/puppeteer/node_modules/@babel/helper-validator-identifier
+812 silly ADD node_modules/puppeteer/node_modules/chalk
+813 silly ADD node_modules/puppeteer/node_modules/@babel/highlight
+814 silly ADD node_modules/puppeteer/node_modules/lines-and-columns
+815 silly ADD node_modules/puppeteer/node_modules/json-parse-even-better-errors
+816 silly ADD node_modules/puppeteer/node_modules/error-ex
+817 silly ADD node_modules/puppeteer/node_modules/@babel/code-frame
+818 silly ADD node_modules/puppeteer/node_modules/callsites
+819 silly ADD node_modules/puppeteer/node_modules/argparse
+820 silly ADD node_modules/puppeteer/node_modules/resolve-from
+821 silly ADD node_modules/puppeteer/node_modules/parent-module
+822 silly ADD node_modules/puppeteer/node_modules/pump
+823 silly ADD node_modules/puppeteer/node_modules/@types/node
+824 silly ADD node_modules/puppeteer/node_modules/yauzl
+825 silly ADD node_modules/puppeteer/node_modules/get-stream
+826 silly ADD node_modules/puppeteer/node_modules/@types/yauzl
+827 silly ADD node_modules/puppeteer/node_modules/ms
+828 silly ADD node_modules/puppeteer/node_modules/path-type
+829 silly ADD node_modules/puppeteer/node_modules/parse-json
+830 silly ADD node_modules/puppeteer/node_modules/js-yaml
+831 silly ADD node_modules/puppeteer/node_modules/import-fresh
+832 silly ADD node_modules/puppeteer/node_modules/yargs
+833 silly ADD node_modules/puppeteer/node_modules/unbzip2-stream
+834 silly ADD node_modules/puppeteer/node_modules/tar-fs
+835 silly ADD node_modules/puppeteer/node_modules/proxy-agent
+836 silly ADD node_modules/puppeteer/node_modules/progress
+837 silly ADD node_modules/puppeteer/node_modules/extract-zip
+838 silly ADD node_modules/puppeteer/node_modules/debug
+839 silly ADD node_modules/puppeteer/node_modules/puppeteer-core
+840 silly ADD node_modules/puppeteer/node_modules/cosmiconfig
+841 silly ADD node_modules/puppeteer/node_modules/@puppeteer/browsers
+842 timing command:install Completed in 66765ms
+843 verbose exit 0
+844 timing npm Completed in 67097ms
+845 info ok

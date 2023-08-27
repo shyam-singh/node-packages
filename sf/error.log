@@ -1,0 +1,3 @@
+2023-08-27T07:21:56.476Z Error: C:/Program Files/sf/client/node_modules/yarn/bin/yarn.js add @salesforce/lwc-dev-server@latest --non-interactive --mutex=file:C:/Users/csmku/AppData/Local/sf/yarn.lock --preferred-cache-folder=C:/Users/csmku/AppData/Local/sf/yarn --check-files exited with code 1
+2023-08-27T07:21:56.476Z     at ChildProcess.<anonymous> (C:/Program Files/sf/client/node_modules/@oclif/plugin-plugins/lib/yarn.js:32:28)
+2023-08-27T07:21:56.476Z     at ChildProcess.emit (node:events:513:28)

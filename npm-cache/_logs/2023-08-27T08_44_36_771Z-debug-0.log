@@ -1,0 +1,300 @@
+0 verbose cli C:\Program Files\sf\client\bin\node.exe C:\Program Files\sf\client\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.4
+2 info using node@v18.15.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:C:\Program Files\sf\client\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 16ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Program Files\sf\bin\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 19ms
+11 timing config:load:file:C:\Users\csmku\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Program Files\sf\client\bin\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 6ms
+17 timing config:load:setEnvs Completed in 4ms
+18 timing config:load Completed in 65ms
+19 timing npm:load:configload Completed in 65ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm show sfdx-git-delta@latest
+23 verbose argv "show" "sfdx-git-delta@latest" "--json" "--registry" "https://registry.npmjs.org/"
+24 timing npm:load:setTitle Completed in 9ms
+25 timing config:load:flatten Completed in 8ms
+26 timing npm:load:display Completed in 16ms
+27 verbose logfile logs-max:10 dir:C:\Users\csmku\AppData\Local\npm-cache\_logs
+28 verbose logfile C:\Users\csmku\AppData\Local\npm-cache\_logs\2023-08-27T08_44_36_771Z-debug-0.log
+29 timing npm:load:logFile Completed in 24ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 120ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 http fetch GET 200 https://registry.npmjs.org/sfdx-git-delta 1660ms (cache miss)
+36 silly view {
+36 silly view   '5.24.2': {
+36 silly view     _id: 'sfdx-git-delta@5.24.2',
+36 silly view     _rev: '156-45227a53b6d498347316548519f37c08',
+36 silly view     name: 'sfdx-git-delta',
+36 silly view     'dist-tags': { latest: '5.24.2', 'latest-rc': '5.24.2', stable: '5.24.2' },
+36 silly view     versions: [
+36 silly view       '0.1.0',  '0.2.0',  '0.3.0',  '0.5.0',  '0.7.0',  '0.8.0',
+36 silly view       '0.8.1',  '0.8.2',  '0.8.3',  '0.8.4',  '0.8.5',  '0.8.6',
+36 silly view       '0.8.7',  '0.8.8',  '0.8.9',  '0.8.10', '1.0.2',  '1.0.3',
+36 silly view       '1.1.0',  '2.0.0',  '2.0.1',  '2.0.2',  '2.0.3',  '2.0.4',
+36 silly view       '2.0.5',  '2.0.6',  '2.0.7',  '2.0.8',  '2.0.9',  '3.0.0',
+36 silly view       '3.0.1',  '3.0.2',  '3.0.3',  '3.0.4',  '3.0.5',  '3.0.6',
+36 silly view       '3.0.7',  '3.1.0',  '3.1.1',  '3.1.2',  '3.1.3',  '3.2.0',
+36 silly view       '3.3.0',  '3.3.1',  '3.4.0',  '4.0.0',  '4.0.1',  '4.0.2',
+36 silly view       '4.0.3',  '4.0.4',  '4.1.0',  '4.1.1',  '4.2.0',  '4.2.1',
+36 silly view       '4.2.2',  '4.2.3',  '4.3.0',  '4.3.1',  '4.3.2',  '4.4.0',
+36 silly view       '4.5.0',  '4.6.0',  '4.6.1',  '4.7.0',  '4.7.1',  '4.7.2',
+36 silly view       '4.8.0',  '4.8.1',  '4.9.0',  '4.9.1',  '4.10.0', '4.11.0',
+36 silly view       '4.12.0', '4.12.1', '5.0.0',  '5.0.1',  '5.0.2',  '5.0.3',
+36 silly view       '5.0.4',  '5.0.5',  '5.0.6',  '5.0.7',  '5.1.0',  '5.1.1',
+36 silly view       '5.1.2',  '5.2.0',  '5.3.0',  '5.3.1',  '5.4.0',  '5.4.1',
+36 silly view       '5.4.2',  '5.5.0',  '5.5.1',  '5.6.0',  '5.7.0',  '5.7.1',
+36 silly view       '5.8.0',  '5.9.0',  '5.10.0', '5.10.1',
+36 silly view       ... 26 more items
+36 silly view     ],
+36 silly view     time: {
+36 silly view       created: '2019-07-22T16:35:42.212Z',
+36 silly view       '0.1.0': '2019-07-22T16:35:42.331Z',
+36 silly view       modified: '2023-08-08T07:58:15.677Z',
+36 silly view       '0.2.0': '2019-07-24T13:03:30.727Z',
+36 silly view       '0.3.0': '2019-07-24T13:05:09.698Z',
+36 silly view       '0.5.0': '2019-07-24T13:49:29.826Z',
+36 silly view       '0.7.0': '2019-07-24T13:57:31.549Z',
+36 silly view       '0.8.0': '2019-07-24T14:17:14.510Z',
+36 silly view       '0.8.1': '2019-07-25T16:36:11.397Z',
+36 silly view       '0.8.2': '2019-07-26T17:21:20.676Z',
+36 silly view       '0.8.3': '2019-07-26T17:24:23.052Z',
+36 silly view       '0.8.4': '2019-07-29T10:37:22.982Z',
+36 silly view       '0.8.5': '2019-07-29T15:53:23.750Z',
+36 silly view       '0.8.6': '2019-07-30T08:15:05.262Z',
+36 silly view       '0.8.7': '2019-07-30T17:14:42.009Z',
+36 silly view       '0.8.8': '2019-08-02T16:09:25.154Z',
+36 silly view       '0.8.9': '2019-08-06T11:47:58.117Z',
+36 silly view       '0.8.10': '2019-08-06T11:51:41.949Z',
+36 silly view       '1.0.2': '2019-08-08T21:42:41.265Z',
+36 silly view       '1.0.3': '2019-08-13T22:47:36.232Z',
+36 silly view       '1.1.0': '2019-08-14T11:01:57.318Z',
+36 silly view       '2.0.0': '2019-08-21T14:41:50.688Z',
+36 silly view       '2.0.1': '2019-08-27T10:57:45.423Z',
+36 silly view       '2.0.2': '2019-08-28T13:13:09.377Z',
+36 silly view       '2.0.3': '2019-10-08T10:04:33.722Z',
+36 silly view       '2.0.4': '2019-10-08T14:24:37.579Z',
+36 silly view       '2.0.5': '2019-10-08T17:17:39.084Z',
+36 silly view       '2.0.6': '2019-10-11T07:30:50.394Z',
+36 silly view       '2.0.7': '2019-10-14T15:23:36.813Z',
+36 silly view       '2.0.8': '2019-12-09T17:01:14.150Z',
+36 silly view       '2.0.9': '2019-12-29T22:06:44.150Z',
+36 silly view       '3.0.0': '2020-03-19T18:07:22.776Z',
+36 silly view       '3.0.1': '2020-03-24T18:13:25.555Z',
+36 silly view       '3.0.2': '2020-04-14T14:31:51.369Z',
+36 silly view       '3.0.3': '2020-04-14T14:36:44.160Z',
+36 silly view       '3.0.4': '2020-04-28T16:38:05.071Z',
+36 silly view       '3.0.5': '2020-04-30T09:30:07.360Z',
+36 silly view       '3.0.6': '2020-05-13T13:05:46.136Z',
+36 silly view       '3.0.7': '2020-06-03T13:28:58.691Z',
+36 silly view       '3.1.0': '2020-06-09T09:50:30.526Z',
+36 silly view       '3.1.1': '2020-06-17T13:26:27.482Z',
+36 silly view       '3.1.2': '2020-06-29T16:59:15.168Z',
+36 silly view       '3.1.3': '2020-07-06T07:35:33.454Z',
+36 silly view       '3.2.0': '2020-07-12T12:01:32.739Z',
+36 silly view       '3.3.0': '2020-07-29T14:05:42.623Z',
+36 silly view       '3.3.1': '2020-07-30T12:26:50.672Z',
+36 silly view       '3.4.0': '2020-09-23T08:44:00.371Z',
+36 silly view       '4.0.0': '2020-10-21T13:18:04.397Z',
+36 silly view       '4.0.1': '2020-10-21T17:28:37.457Z',
+36 silly view       '4.0.2': '2020-10-21T17:37:46.922Z',
+36 silly view       '4.0.3': '2020-10-28T08:25:02.309Z',
+36 silly view       '4.0.4': '2020-11-26T21:54:45.308Z',
+36 silly view       '4.1.0': '2020-12-05T10:47:21.011Z',
+36 silly view       '4.1.1': '2020-12-22T18:07:05.717Z',
+36 silly view       '4.2.0': '2021-01-13T14:47:36.100Z',
+36 silly view       '4.2.1': '2021-02-22T15:30:52.915Z',
+36 silly view       '4.2.2': '2021-03-01T11:25:17.687Z',
+36 silly view       '4.2.3': '2021-03-22T12:38:34.599Z',
+36 silly view       '4.3.0': '2021-04-04T13:04:09.411Z',
+36 silly view       '4.3.1': '2021-04-05T18:02:55.263Z',
+36 silly view       '4.3.2': '2021-04-19T07:54:44.053Z',
+36 silly view       '4.4.0': '2021-04-20T17:24:58.874Z',
+36 silly view       '4.5.0': '2021-04-27T17:13:50.795Z',
+36 silly view       '4.6.0': '2021-06-14T13:12:31.401Z',
+36 silly view       '4.6.1': '2021-06-24T10:27:09.439Z',
+36 silly view       '4.7.0': '2021-07-06T13:39:24.004Z',
+36 silly view       '4.7.1': '2021-07-09T09:47:32.350Z',
+36 silly view       '4.7.2': '2021-07-29T09:26:51.227Z',
+36 silly view       '4.8.0': '2021-08-04T14:33:20.423Z',
+36 silly view       '4.8.1': '2021-08-04T16:46:51.895Z',
+36 silly view       '4.9.0': '2021-09-10T07:48:40.735Z',
+36 silly view       '4.9.1': '2021-10-13T13:52:23.961Z',
+36 silly view       '4.10.0': '2021-11-15T10:08:15.513Z',
+36 silly view       '4.11.0': '2021-11-24T16:58:36.456Z',
+36 silly view       '4.12.0': '2021-12-17T21:47:42.717Z',
+36 silly view       '4.12.1': '2022-01-05T14:52:34.733Z',
+36 silly view       '5.0.0': '2022-03-11T10:22:13.126Z',
+36 silly view       '5.0.1': '2022-03-16T16:15:39.290Z',
+36 silly view       '5.0.2': '2022-03-16T16:25:24.515Z',
+36 silly view       '5.0.3': '2022-03-18T14:08:23.622Z',
+36 silly view       '5.0.4': '2022-03-22T15:42:49.196Z',
+36 silly view       '5.0.5': '2022-03-23T10:41:07.308Z',
+36 silly view       '5.0.6': '2022-03-24T11:14:07.674Z',
+36 silly view       '5.0.7': '2022-03-29T17:11:51.686Z',
+36 silly view       '5.1.0': '2022-03-30T14:01:54.002Z',
+36 silly view       '5.1.1': '2022-03-31T21:29:03.082Z',
+36 silly view       '5.1.2': '2022-04-04T10:13:07.788Z',
+36 silly view       '5.2.0': '2022-04-21T13:45:09.840Z',
+36 silly view       '5.3.0': '2022-06-13T16:02:35.853Z',
+36 silly view       '5.3.1': '2022-08-04T13:06:28.412Z',
+36 silly view       '5.4.0': '2022-08-26T07:15:42.496Z',
+36 silly view       '5.4.1': '2022-08-26T09:22:03.890Z',
+36 silly view       '5.4.2': '2022-08-26T22:41:01.383Z',
+36 silly view       '5.5.0': '2022-09-21T10:05:21.887Z',
+36 silly view       '5.5.1': '2022-10-10T12:15:01.928Z',
+36 silly view       '5.6.0': '2022-10-24T09:31:52.698Z',
+36 silly view       '5.7.0': '2022-11-04T09:35:33.968Z',
+36 silly view       '5.7.1': '2022-11-10T14:14:57.137Z',
+36 silly view       '5.8.0': '2022-11-12T12:19:08.018Z',
+36 silly view       '5.9.0': '2022-12-13T12:29:47.560Z',
+36 silly view       '5.10.0': '2022-12-16T09:19:13.458Z',
+36 silly view       '5.10.1': '2023-01-17T13:22:52.252Z',
+36 silly view       '5.10.2': '2023-01-19T09:32:22.515Z',
+36 silly view       '5.11.0': '2023-01-23T10:18:18.731Z',
+36 silly view       '5.11.1': '2023-01-24T16:10:20.808Z',
+36 silly view       '5.11.2': '2023-01-26T19:08:23.711Z',
+36 silly view       '5.11.3': '2023-01-30T14:34:44.074Z',
+36 silly view       '5.11.4': '2023-02-01T13:58:47.041Z',
+36 silly view       '5.12.0': '2023-02-15T10:19:28.877Z',
+36 silly view       '5.13.0': '2023-02-16T15:14:57.574Z',
+36 silly view       '5.13.1': '2023-02-16T16:32:51.042Z',
+36 silly view       '5.13.2': '2023-02-16T17:43:11.994Z',
+36 silly view       '5.13.3': '2023-02-27T08:51:39.146Z',
+36 silly view       '5.14.0': '2023-03-15T08:59:50.115Z',
+36 silly view       '5.15.0': '2023-03-29T13:47:28.032Z',
+36 silly view       '5.16.0': '2023-03-31T10:45:27.808Z',
+36 silly view       '5.17.0': '2023-04-04T08:48:57.641Z',
+36 silly view       '5.17.1': '2023-04-04T18:52:14.445Z',
+36 silly view       '5.18.0': '2023-04-21T07:27:03.047Z',
+36 silly view       '5.18.1': '2023-05-11T07:56:05.111Z',
+36 silly view       '5.19.0': '2023-05-16T07:36:26.245Z',
+36 silly view       '5.20.0': '2023-05-30T15:36:09.080Z',
+36 silly view       '5.21.0': '2023-06-06T07:46:39.508Z',
+36 silly view       '5.22.0': '2023-06-12T07:59:24.727Z',
+36 silly view       '5.23.0': '2023-06-30T15:02:27.880Z',
+36 silly view       '5.24.0': '2023-07-11T08:09:33.363Z',
+36 silly view       '5.24.1': '2023-07-27T19:27:42.356Z',
+36 silly view       '5.24.2': '2023-08-08T07:56:09.165Z'
+36 silly view     },
+36 silly view     maintainers: [ [Object] ],
+36 silly view     description: 'Generate the sfdx content in source format and destructive change from two git commits',
+36 silly view     homepage: 'https://github.com/scolladon/sfdx-git-delta#readme',
+36 silly view     repository: {
+36 silly view       type: 'git',
+36 silly view       url: 'git+https://github.com/scolladon/sfdx-git-delta.git'
+36 silly view     },
+36 silly view     author: 'Sebastien Colladon <colladonsebastien@gmail.com>',
+36 silly view     bugs: { url: 'https://github.com/scolladon/sfdx-git-delta/issues' },
+36 silly view     license: 'MIT',
+36 silly view     readmeFilename: '',
+36 silly view     _cached: true,
+36 silly view     _contentLength: 0,
+36 silly view     version: '5.24.2',
+36 silly view     keyword: [ 'salesforce', 'package', 'git', 'sfdx', 'sfdx-plugin' ],
+36 silly view     engines: { node: '>=16.20.0' },
+36 silly view     main: 'lib/main.js',
+36 silly view     dependencies: {
+36 silly view       '@salesforce/command': '^5.3.9',
+36 silly view       'fast-xml-parser': '^4.2.7',
+36 silly view       'fs-extra': '^11.1.1',
+36 silly view       ignore: '^5.2.4',
+36 silly view       lodash: '^4.17.21',
+36 silly view       micromatch: '^4.0.5',
+36 silly view       xmlbuilder2: '^3.1.1'
+36 silly view     },
+36 silly view     scripts: {
+36 silly view       analysis: 'codeclimate analyze',
+36 silly view       clean: "shx rm -rf lib 'reports/*' .nyc_output oclif.manifest.json package.tgz 'sfdx-git-delta-v*.tgz' 'stderr*.txt' 'stdout*.txt' '.stryker-tmp/*' perf-result.txt",
+36 silly view       'increment:apiversion': 'bash ./tooling/incrementApiVersion.sh',
+36 silly view       lint: 'eslint src/',
+36 silly view       'lint:dependencies': 'depcheck',
+36 silly view       'lint:fix': 'eslint --fix src/',
+36 silly view       test: 'yarn test:unit && yarn test:nut',
+36 silly view       'test:build:local': 'yarn clean ; shx rm -rf .yarn/cache node_modules ; yarn && yarn pack && yarn test',
+36 silly view       'test:mutation': 'stryker run',
+36 silly view       'test:nut': 'nyc mocha **/*.nut.ts',
+36 silly view       'test:perf': 'node __tests__/perf/bench.js | tee perf-result.txt',
+36 silly view       'test:unit': 'jest',
+36 silly view       'test:unit:clear:cache': 'jest --clearCache',
+36 silly view       'test:unit:coverage': 'jest --coverage',
+36 silly view       'test:unit:debug': 'node --inspect node_modules/.bin/jest',
+36 silly view       'test:unit:debug:break': 'node --inspect-brk node_modules/.bin/jest',
+36 silly view       'test:unit:watch': 'jest --watch',
+36 silly view       build: 'tsc -b',
+36 silly view       postpack: 'shx rm -f oclif.manifest.json && prettier --write README.md',
+36 silly view       prebuild: 'yarn clean',
+36 silly view       prepack: 'yarn build && oclif-dev manifest && oclif-dev readme',
+36 silly view       prepare: 'husky install',
+36 silly view       'upgrade:dependencies': 'shx rm -rf yarn.lock ; shx touch yarn.lock ; yarn-upgrade-all ; yarn-audit-fix'
+36 silly view     },
+36 silly view     devDependencies: {
+36 silly view       '@commitlint/cli': '^17.6.7',
+36 silly view       '@commitlint/config-conventional': '^17.6.7',
+36 silly view       '@oclif/dev-cli': '^1.26.10',
+36 silly view       '@salesforce/cli-plugins-testkit': '^4.2.8',
+36 silly view       '@salesforce/dev-config': '^4.0.1',
+36 silly view       '@salesforce/ts-sinon': '^1.4.13',
+36 silly view       '@stryker-mutator/core': '^7.1.1',
+36 silly view       '@stryker-mutator/jest-runner': '^7.1.1',
+36 silly view       '@swc/core': '^1.3.74',
+36 silly view       '@types/mocha': '^10.0.1',
+36 silly view       '@types/node': '^20.4.8',
+36 silly view       '@typescript-eslint/parser': '^6.2.1',
+36 silly view       benchmark: '^2.1.4',
+36 silly view       chai: '^4.3.7',
+36 silly view       depcheck: '^1.4.3',
+36 silly view       eslint: '^8.46.0',
+36 silly view       'eslint-config-prettier': '^9.0.0',
+36 silly view       'eslint-plugin-prettier': '^5.0.0',
+36 silly view       husky: '^8.0.3',
+36 silly view       jest: '^29.6.2',
+36 silly view       'lint-staged': '^13.2.3',
+36 silly view       mocha: '^10.2.0',
+36 silly view       nyc: '^15.1.0',
+36 silly view       prettier: '^3.0.1',
+36 silly view       shx: '^0.3.4',
+36 silly view       sinon: '^15.2.0',
+36 silly view       'ts-node': '^10.9.1',
+36 silly view       typescript: '^5.1.6',
+36 silly view       'yarn-audit-fix': '^10.0.0',
+36 silly view       'yarn-upgrade-all': '^0.7.2'
+36 silly view     },
+36 silly view     oclif: { commands: './lib/commands', bin: 'sfdx', devPlugins: [Array] },
+36 silly view     publishConfig: { access: 'public' },
+36 silly view     packageManager: 'yarn@3.6.0',
+36 silly view     gitHead: 'b140ad89c17737b94331b49d79e87176d52041b0',
+36 silly view     dist: {
+36 silly view       shasum: 'f1ebbf70c09336c38e40542728d12cf70c07435f',
+36 silly view       integrity: 'sha512-bhxoRdTJ/3DuUUzBdS+G9YIGGDxeKZQZDT+gst2NRzrNBElsPucsXdl64GrqH4o2WgDaHbU1tvxTJ3hRMEr65g==',
+36 silly view       tarball: 'https://registry.npmjs.org/sfdx-git-delta/-/sfdx-git-delta-5.24.2.tgz',
+36 silly view       fileCount: 122,
+36 silly view       unpackedSize: 879811,
+36 silly view       signatures: [Array]
+36 silly view     },
+36 silly view     _npmUser: { name: 'scolladon', email: 'colladonsebastien@gmail.com' },
+36 silly view     directories: {},
+36 silly view     _npmOperationalInternal: {
+36 silly view       host: 's3://npm-registry-packages',
+36 silly view       tmp: 'tmp/sfdx-git-delta_5.24.2_1691481368984_0.5447211091058655'
+36 silly view     },
+36 silly view     _hasShrinkwrap: false
+36 silly view   }
+36 silly view }
+37 timing command:show Completed in 1752ms
+38 verbose exit 0
+39 timing npm Completed in 1923ms
+40 info ok

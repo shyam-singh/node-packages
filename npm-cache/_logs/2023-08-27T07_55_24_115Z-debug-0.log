@@ -1,0 +1,258 @@
+0 verbose cli C:\Program Files\sf\client\bin\node.exe C:\Program Files\sf\client\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.4
+2 info using node@v18.15.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 6ms
+5 timing config:load:file:C:\Program Files\sf\client\node_modules\npm\npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 19ms
+8 timing config:load:env Completed in 3ms
+9 timing config:load:file:C:\Users\csmku\AppData\Local\sf\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 12ms
+11 timing config:load:file:C:\Users\csmku\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:C:\Program Files\sf\client\bin\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 3ms
+17 timing config:load:setEnvs Completed in 4ms
+18 timing config:load Completed in 56ms
+19 timing npm:load:configload Completed in 57ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm pack @salesforce/lwc-dev-server@2.11.0
+23 verbose argv "pack" "@salesforce/lwc-dev-server@2.11.0" "--registry" "https://registry.npmjs.org/"
+24 timing npm:load:setTitle Completed in 3ms
+25 timing config:load:flatten Completed in 11ms
+26 timing npm:load:display Completed in 13ms
+27 verbose logfile logs-max:10 dir:C:\Users\csmku\AppData\Local\npm-cache\_logs
+28 verbose logfile C:\Users\csmku\AppData\Local\npm-cache\_logs\2023-08-27T07_55_24_115Z-debug-0.log
+29 timing npm:load:logFile Completed in 34ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 114ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 http fetch GET 200 https://registry.npmjs.org/@salesforce%2flwc-dev-server 80ms (cache hit)
+36 http fetch GET 200 https://registry.npmjs.org/@salesforce%2flwc-dev-server 20ms (cache hit)
+37 notice
+38 notice package: @salesforce/lwc-dev-server@2.11.0
+39 notice === Tarball Contents ===
+40 notice 3.6kB   CHANGELOG.md                                                                         
+40 notice 1.1kB   LICENSE                                                                              
+40 notice 12.1kB  README.md                                                                            
+40 notice 178B    bin/run                                                                              
+40 notice 30B     bin/run.cmd                                                                          
+40 notice 33.0kB  dist/assets/favicon.ico                                                              
+40 notice 26.3kB  dist/assets/fonts/NeutrafaceDisplay.woff                                             
+40 notice 18.1kB  dist/assets/fonts/NeutrafaceDisplay.woff2                                            
+40 notice 33.8kB  dist/assets/fonts/webfonts/SalesforceSans-Bold.woff                                  
+40 notice 27.6kB  dist/assets/fonts/webfonts/SalesforceSans-Bold.woff2                                 
+40 notice 34.9kB  dist/assets/fonts/webfonts/SalesforceSans-BoldItalic.woff                            
+40 notice 28.5kB  dist/assets/fonts/webfonts/SalesforceSans-BoldItalic.woff2                           
+40 notice 34.9kB  dist/assets/fonts/webfonts/SalesforceSans-Italic.woff                                
+40 notice 28.3kB  dist/assets/fonts/webfonts/SalesforceSans-Italic.woff2                               
+40 notice 33.9kB  dist/assets/fonts/webfonts/SalesforceSans-Light.woff                                 
+40 notice 27.7kB  dist/assets/fonts/webfonts/SalesforceSans-Light.woff2                                
+40 notice 35.1kB  dist/assets/fonts/webfonts/SalesforceSans-LightItalic.woff                           
+40 notice 28.5kB  dist/assets/fonts/webfonts/SalesforceSans-LightItalic.woff2                          
+40 notice 33.7kB  dist/assets/fonts/webfonts/SalesforceSans-Regular.woff                               
+40 notice 27.7kB  dist/assets/fonts/webfonts/SalesforceSans-Regular.woff2                              
+40 notice 33.3kB  dist/assets/fonts/webfonts/SalesforceSans-Thin.woff                                  
+40 notice 27.2kB  dist/assets/fonts/webfonts/SalesforceSans-Thin.woff2                                 
+40 notice 34.6kB  dist/assets/fonts/webfonts/SalesforceSans-ThinItalic.woff                            
+40 notice 28.0kB  dist/assets/fonts/webfonts/SalesforceSans-ThinItalic.woff2                           
+40 notice 101.4kB dist/assets/icons/action-sprite/svg/symbols-rtl.svg                                  
+40 notice 101.6kB dist/assets/icons/action-sprite/svg/symbols.svg                                      
+40 notice 2.6kB   dist/assets/icons/code_playground.svg                                                
+40 notice 7.0kB   dist/assets/icons/component_customization.svg                                        
+40 notice 58.7kB  dist/assets/icons/custom-sprite/svg/symbols-rtl.svg                                  
+40 notice 58.8kB  dist/assets/icons/custom-sprite/svg/symbols.svg                                      
+40 notice 33.6kB  dist/assets/icons/doctype-sprite/svg/symbols-rtl.svg                                 
+40 notice 33.4kB  dist/assets/icons/doctype-sprite/svg/symbols.svg                                     
+40 notice 2.4kB   dist/assets/icons/report_issue.svg                                                   
+40 notice 181.1kB dist/assets/icons/standard-sprite/svg/symbols-rtl.svg                                
+40 notice 180.7kB dist/assets/icons/standard-sprite/svg/symbols.svg                                    
+40 notice 215.5kB dist/assets/icons/utility-sprite/svg/symbols-rtl.svg                                 
+40 notice 215.3kB dist/assets/icons/utility-sprite/svg/symbols.svg                                     
+40 notice 11.5kB  dist/assets/images/Buggy.svg                                                         
+40 notice 16.0kB  dist/assets/images/empty-state.svg                                                   
+40 notice 28.7kB  dist/assets/images/logo.svg                                                          
+40 notice 242.8kB dist/assets/images/mountain.svg                                                      
+40 notice 20.1kB  dist/assets/styles/salesforce-lightning-design-system_touch.css                      
+40 notice 16.1kB  dist/assets/styles/salesforce-lightning-design-system_touch.min.css                  
+40 notice 2.3kB   dist/assets/styles/salesforce-lightning-design-system-imports.sanitized.css          
+40 notice 683.6kB dist/assets/styles/salesforce-lightning-design-system.css                            
+40 notice 601.8kB dist/assets/styles/salesforce-lightning-design-system.min.css                        
+40 notice 289.2kB dist/assets/styles/salesforce-lightning-design-system.sanitized.css                  
+40 notice 257B    dist/assets/styles/styles.css                                                        
+40 notice 587B    dist/cli/commands/force/lightning/lwc/start.d.ts                                     
+40 notice 605B    dist/cli/commands/force/lightning/lwc/start.d.ts.map                                 
+40 notice 3.8kB   dist/cli/commands/force/lightning/lwc/start.js                                       
+40 notice 2.8kB   dist/cli/commands/force/lightning/lwc/start.js.map                                   
+40 notice 916B    dist/client/index.html                                                               
+40 notice 140B    dist/client/modules/jsconfig.json                                                    
+40 notice 628B    dist/client/modules/localdevserver/app/app.html                                      
+40 notice 2.3kB   dist/client/modules/localdevserver/app/app.js                                        
+40 notice 6.2kB   dist/client/modules/localdevserver/codeHighlighter/codeHighlighter.css               
+40 notice 56B     dist/client/modules/localdevserver/codeHighlighter/codeHighlighter.html              
+40 notice 2.0kB   dist/client/modules/localdevserver/codeHighlighter/codeHighlighter.js                
+40 notice 45.1kB  dist/client/modules/localdevserver/codeHighlighter/prismjs.js                        
+40 notice 1.4kB   dist/client/modules/localdevserver/componentsPanel/componentsPanel.css               
+40 notice 7.0kB   dist/client/modules/localdevserver/componentsPanel/componentsPanel.html              
+40 notice 2.7kB   dist/client/modules/localdevserver/componentsPanel/componentsPanel.js                
+40 notice 521B    dist/client/modules/localdevserver/error/error.css                                   
+40 notice 2.0kB   dist/client/modules/localdevserver/error/error.html                                  
+40 notice 2.0kB   dist/client/modules/localdevserver/error/error.js                                    
+40 notice 591B    dist/client/modules/localdevserver/errorStacks/errorStacks.css                       
+40 notice 470B    dist/client/modules/localdevserver/errorStacks/errorStacks.html                      
+40 notice 1.2kB   dist/client/modules/localdevserver/errorStacks/errorStacks.js                        
+40 notice 726B    dist/client/modules/localdevserver/header/header.css                                 
+40 notice 572B    dist/client/modules/localdevserver/header/header.html                                
+40 notice 97B     dist/client/modules/localdevserver/header/header.js                                  
+40 notice 135B    dist/client/modules/localdevserver/home/home.css                                     
+40 notice 711B    dist/client/modules/localdevserver/home/home.html                                    
+40 notice 95B     dist/client/modules/localdevserver/home/home.js                                      
+40 notice 2.0kB   dist/client/modules/localdevserver/instrumentation/instrumentation.js                
+40 notice 415B    dist/client/modules/localdevserver/layout/layout.css                                 
+40 notice 105B    dist/client/modules/localdevserver/layout/layout.html                                
+40 notice 97B     dist/client/modules/localdevserver/layout/layout.js                                  
+40 notice 342B    dist/client/modules/localdevserver/layoutSection/layoutSection.css                   
+40 notice 41B     dist/client/modules/localdevserver/layoutSection/layoutSection.html                  
+40 notice 459B    dist/client/modules/localdevserver/layoutSection/layoutSection.js                    
+40 notice 1.2kB   dist/client/modules/localdevserver/lightningConfigProvider/lightningConfigProvider.js
+40 notice 487B    dist/client/modules/localdevserver/preview/preview.css                               
+40 notice 2.3kB   dist/client/modules/localdevserver/preview/preview.html                              
+40 notice 3.9kB   dist/client/modules/localdevserver/preview/preview.js                                
+40 notice 1.6kB   dist/client/modules/localdevserver/projectMetadataLib/projectMetadataLib.js          
+40 notice 471B    dist/client/modules/localdevserver/resourcesPanel/resourcesPanel.css                 
+40 notice 3.8kB   dist/client/modules/localdevserver/resourcesPanel/resourcesPanel.html                
+40 notice 105B    dist/client/modules/localdevserver/resourcesPanel/resourcesPanel.js                  
+40 notice 1.5kB   dist/client/modules/localdevserver/routerLib/routerLib.js                            
+40 notice 366B    dist/client/modules/localdevserver/routerLib/routes.js                               
+40 notice 283B    dist/client/modules/localdevserver/view/view.html                                    
+40 notice 1.8kB   dist/client/modules/localdevserver/view/view.js                                      
+40 notice 839B    dist/common/ComponentIndex.d.ts                                                      
+40 notice 851B    dist/common/ComponentIndex.d.ts.map                                                  
+40 notice 6.5kB   dist/common/ComponentIndex.js                                                        
+40 notice 5.0kB   dist/common/ComponentIndex.js.map                                                    
+40 notice 305B    dist/common/Constants.d.ts                                                           
+40 notice 288B    dist/common/Constants.d.ts.map                                                       
+40 notice 536B    dist/common/Constants.js                                                             
+40 notice 335B    dist/common/Constants.js.map                                                         
+40 notice 993B    dist/common/fileUtils.d.ts                                                           
+40 notice 945B    dist/common/fileUtils.d.ts.map                                                       
+40 notice 4.5kB   dist/common/fileUtils.js                                                             
+40 notice 3.8kB   dist/common/fileUtils.js.map                                                         
+40 notice 486B    dist/common/LocalDevServerConfiguration.d.ts                                         
+40 notice 551B    dist/common/LocalDevServerConfiguration.d.ts.map                                     
+40 notice 926B    dist/common/LocalDevServerConfiguration.js                                           
+40 notice 859B    dist/common/LocalDevServerConfiguration.js.map                                       
+40 notice 1.2kB   dist/common/Project.d.ts                                                             
+40 notice 1.0kB   dist/common/Project.d.ts.map                                                         
+40 notice 7.0kB   dist/common/Project.js                                                               
+40 notice 4.6kB   dist/common/Project.js.map                                                           
+40 notice 804B    dist/common/StaticResourcesUtils.d.ts                                                
+40 notice 701B    dist/common/StaticResourcesUtils.d.ts.map                                            
+40 notice 3.9kB   dist/common/StaticResourcesUtils.js                                                  
+40 notice 3.0kB   dist/common/StaticResourcesUtils.js.map                                              
+40 notice 174B    dist/common/types.d.ts                                                               
+40 notice 266B    dist/common/types.d.ts.map                                                           
+40 notice 110B    dist/common/types.js                                                                 
+40 notice 112B    dist/common/types.js.map                                                             
+40 notice 391B    dist/instrumentation/LocalDevTelemetryOptions.d.ts                                   
+40 notice 348B    dist/instrumentation/LocalDevTelemetryOptions.d.ts.map                               
+40 notice 557B    dist/instrumentation/LocalDevTelemetryOptions.js                                     
+40 notice 460B    dist/instrumentation/LocalDevTelemetryOptions.js.map                                 
+40 notice 992B    dist/instrumentation/LocalDevTelemetryReporter.d.ts                                  
+40 notice 767B    dist/instrumentation/LocalDevTelemetryReporter.d.ts.map                              
+40 notice 3.4kB   dist/instrumentation/LocalDevTelemetryReporter.js                                    
+40 notice 2.3kB   dist/instrumentation/LocalDevTelemetryReporter.js.map                                
+40 notice 148B    dist/instrumentation/machineId.d.ts                                                  
+40 notice 179B    dist/instrumentation/machineId.d.ts.map                                              
+40 notice 1.6kB   dist/instrumentation/machineId.js                                                    
+40 notice 1.2kB   dist/instrumentation/machineId.js.map                                                
+40 notice 663B    dist/server/config/LocalDevApp.d.ts                                                  
+40 notice 519B    dist/server/config/LocalDevApp.d.ts.map                                              
+40 notice 3.3kB   dist/server/config/LocalDevApp.js                                                    
+40 notice 2.2kB   dist/server/config/LocalDevApp.js.map                                                
+40 notice 989B    dist/server/config/WebruntimeConfig.d.ts                                             
+40 notice 969B    dist/server/config/WebruntimeConfig.d.ts.map                                         
+40 notice 4.3kB   dist/server/config/WebruntimeConfig.js                                               
+40 notice 2.7kB   dist/server/config/WebruntimeConfig.js.map                                           
+40 notice 762B    dist/server/extensions/apexMiddleware.d.ts                                           
+40 notice 675B    dist/server/extensions/apexMiddleware.d.ts.map                                       
+40 notice 8.8kB   dist/server/extensions/apexMiddleware.js                                             
+40 notice 6.6kB   dist/server/extensions/apexMiddleware.js.map                                         
+40 notice 784B    dist/server/extensions/apiMiddleware.d.ts                                            
+40 notice 809B    dist/server/extensions/apiMiddleware.d.ts.map                                        
+40 notice 2.2kB   dist/server/extensions/apiMiddleware.js                                              
+40 notice 1.5kB   dist/server/extensions/apiMiddleware.js.map                                          
+40 notice 323B    dist/server/extensions/index.d.ts                                                    
+40 notice 380B    dist/server/extensions/index.d.ts.map                                                
+40 notice 725B    dist/server/extensions/index.js                                                      
+40 notice 336B    dist/server/extensions/index.js.map                                                  
+40 notice 488B    dist/server/extensions/liveReload.d.ts                                               
+40 notice 422B    dist/server/extensions/liveReload.d.ts.map                                           
+40 notice 2.3kB   dist/server/extensions/liveReload.js                                                 
+40 notice 1.7kB   dist/server/extensions/liveReload.js.map                                             
+40 notice 283B    dist/server/extensions/projectMetadata.d.ts                                          
+40 notice 290B    dist/server/extensions/projectMetadata.d.ts.map                                      
+40 notice 2.8kB   dist/server/extensions/projectMetadata.js                                            
+40 notice 1.7kB   dist/server/extensions/projectMetadata.js.map                                        
+40 notice 202B    dist/server/extensions/resourceUrl.d.ts                                              
+40 notice 210B    dist/server/extensions/resourceUrl.d.ts.map                                          
+40 notice 2.6kB   dist/server/extensions/resourceUrl.js                                                
+40 notice 1.8kB   dist/server/extensions/resourceUrl.js.map                                            
+40 notice 215B    dist/server/extensions/sessionNonce.d.ts                                             
+40 notice 230B    dist/server/extensions/sessionNonce.d.ts.map                                         
+40 notice 396B    dist/server/extensions/sessionNonce.js                                               
+40 notice 424B    dist/server/extensions/sessionNonce.js.map                                           
+40 notice 550B    dist/server/LocalDevServer.d.ts                                                      
+40 notice 567B    dist/server/LocalDevServer.d.ts.map                                                  
+40 notice 6.1kB   dist/server/LocalDevServer.js                                                        
+40 notice 4.0kB   dist/server/LocalDevServer.js.map                                                    
+40 notice 356B    dist/server/services/ApexContinuationService.d.ts                                    
+40 notice 274B    dist/server/services/ApexContinuationService.d.ts.map                                
+40 notice 1.0kB   dist/server/services/ApexContinuationService.js                                      
+40 notice 769B    dist/server/services/ApexContinuationService.js.map                                  
+40 notice 231B    dist/server/services/ComponentServiceWithExclusions.d.ts                             
+40 notice 267B    dist/server/services/ComponentServiceWithExclusions.d.ts.map                         
+40 notice 643B    dist/server/services/ComponentServiceWithExclusions.js                               
+40 notice 536B    dist/server/services/ComponentServiceWithExclusions.js.map                           
+40 notice 338B    dist/server/services/CustomComponentService.d.ts                                     
+40 notice 370B    dist/server/services/CustomComponentService.d.ts.map                                 
+40 notice 4.2kB   dist/server/services/CustomComponentService.js                                       
+40 notice 3.0kB   dist/server/services/CustomComponentService.js.map                                   
+40 notice 357B    dist/server/services/LabelsService.d.ts                                              
+40 notice 401B    dist/server/services/LabelsService.d.ts.map                                          
+40 notice 8.5kB   dist/server/services/LabelsService.js                                                
+40 notice 6.1kB   dist/server/services/LabelsService.js.map                                            
+40 notice 344B    dist/server/services/LWCMessageService.d.ts                                          
+40 notice 262B    dist/server/services/LWCMessageService.d.ts.map                                      
+40 notice 987B    dist/server/services/LWCMessageService.js                                            
+40 notice 757B    dist/server/services/LWCMessageService.js.map                                        
+40 notice 439B    dist/server/services/ResourceUrlService.d.ts                                         
+40 notice 331B    dist/server/services/ResourceUrlService.d.ts.map                                     
+40 notice 2.1kB   dist/server/services/ResourceUrlService.js                                           
+40 notice 1.6kB   dist/server/services/ResourceUrlService.js.map                                       
+40 notice 185B    lwc.config.json                                                                      
+40 notice 1.3kB   messages/start.json                                                                  
+40 notice 7.2kB   package.json                                                                         
+40 notice 733B    script/copy-assets.ts                                                                
+40 notice 6.1kB   script/port-changes.js                                                               
+40 notice 519B    script/publish-workflow.sh                                                           
+41 notice === Tarball Details ===
+42 notice name:          @salesforce/lwc-dev-server              
+42 notice version:       2.11.0                                  
+42 notice filename:      @salesforce/lwc-dev-server-2.11.0.tgz   
+42 notice package size:  1.3 MB                                  
+42 notice unpacked size: 4.0 MB                                  
+42 notice shasum:        e4ad544aa779c38c02c34a80408e9dc87f534b44
+42 notice integrity:     sha512-FCYWivrMSG4Va[...]ZJaw4fUs2yJjw==
+42 notice total files:   204                                     
+43 notice
+44 timing command:pack Completed in 324ms
+45 verbose exit 0
+46 timing npm Completed in 499ms
+47 info ok

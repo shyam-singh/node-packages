@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "oclif": {
+    "schema": 1,
+    "plugins": [
+      {
+        "name": "@salesforce/lwc-dev-server",
+        "tag": "latest",
+        "type": "user"
+      },
+      {
+        "name": "sfdx-git-delta",
+        "tag": "latest",
+        "type": "user"
+      }
+    ]
+  },
+  "dependencies": {
+    "@salesforce/lwc-dev-server": "^2.11.0",
+    "sfdx-git-delta": "^5.24.2"
+  }
+}

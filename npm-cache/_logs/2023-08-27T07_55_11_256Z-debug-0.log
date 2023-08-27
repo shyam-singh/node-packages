@@ -1,0 +1,303 @@
+0 verbose cli C:\Program Files\sf\client\bin\node.exe C:\Program Files\sf\client\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.19.4
+2 info using node@v18.15.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Program Files\sf\client\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 18ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Program Files\sf\bin\.npmrc Completed in 1ms
+10 timing config:load:project Completed in 13ms
+11 timing config:load:file:C:\Users\csmku\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Program Files\sf\client\bin\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 3ms
+17 timing config:load:setEnvs Completed in 4ms
+18 timing config:load Completed in 51ms
+19 timing npm:load:configload Completed in 52ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm show @salesforce/lwc-dev-server@latest
+23 verbose argv "show" "@salesforce/lwc-dev-server@latest" "--json" "--registry" "https://registry.npmjs.org/"
+24 timing npm:load:setTitle Completed in 6ms
+25 timing config:load:flatten Completed in 29ms
+26 timing npm:load:display Completed in 33ms
+27 verbose logfile logs-max:10 dir:C:\Users\csmku\AppData\Local\npm-cache\_logs
+28 verbose logfile C:\Users\csmku\AppData\Local\npm-cache\_logs\2023-08-27T07_55_11_256Z-debug-0.log
+29 timing npm:load:logFile Completed in 18ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 1ms
+32 timing npm:load Completed in 116ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 http fetch GET 200 https://registry.npmjs.org/@salesforce%2flwc-dev-server 3074ms (cache revalidated)
+36 silly view {
+36 silly view   '2.11.0': {
+36 silly view     _id: '@salesforce/lwc-dev-server@2.11.0',
+36 silly view     _rev: '124-33c3bb21167ae11fec3499af6e8e182a',
+36 silly view     name: '@salesforce/lwc-dev-server',
+36 silly view     'dist-tags': { latest: '2.11.0' },
+36 silly view     versions: [
+36 silly view       '1.0.1',  '1.0.2',  '1.0.3',
+36 silly view       '1.0.4',  '1.0.6',  '1.0.7-1',
+36 silly view       '1.0.7',  '1.0.8',  '1.0.10',
+36 silly view       '2.0.0',  '2.1.0',  '2.1.1',
+36 silly view       '2.2.0',  '2.3.0',  '2.4.0',
+36 silly view       '2.5.0',  '2.5.1',  '2.6.0',
+36 silly view       '2.7.0',  '2.8.0',  '2.9.0',
+36 silly view       '2.10.0', '2.11.0'
+36 silly view     ],
+36 silly view     time: {
+36 silly view       created: '2019-09-30T22:33:39.822Z',
+36 silly view       '1.0.1': '2019-09-30T22:33:40.013Z',
+36 silly view       modified: '2023-06-21T20:29:03.013Z',
+36 silly view       '1.0.2': '2019-10-01T01:46:06.702Z',
+36 silly view       '1.0.3': '2019-10-01T21:12:09.623Z',
+36 silly view       '1.0.4': '2019-10-01T21:54:14.666Z',
+36 silly view       '1.0.6': '2019-10-07T21:35:03.161Z',
+36 silly view       '1.0.7': '2019-10-24T21:04:10.711Z',
+36 silly view       '1.0.7-1': '2019-10-24T21:16:32.623Z',
+36 silly view       '1.0.8': '2019-10-24T21:27:07.344Z',
+36 silly view       '1.0.10': '2020-01-11T00:01:31.345Z',
+36 silly view       '2.0.0': '2020-06-04T17:20:12.216Z',
+36 silly view       '2.1.0': '2020-06-05T00:57:40.384Z',
+36 silly view       '2.1.1': '2020-06-11T00:49:16.112Z',
+36 silly view       '2.2.0': '2020-06-18T16:28:30.533Z',
+36 silly view       '2.3.0': '2020-07-02T17:35:59.781Z',
+36 silly view       '2.4.0': '2020-07-09T18:52:53.014Z',
+36 silly view       '2.5.0': '2020-07-17T19:16:21.912Z',
+36 silly view       '2.5.1': '2020-08-07T00:39:50.622Z',
+36 silly view       '2.6.0': '2020-11-16T22:37:03.063Z',
+36 silly view       '2.7.0': '2020-11-20T21:39:31.513Z',
+36 silly view       '2.8.0': '2020-12-11T22:39:27.490Z',
+36 silly view       '2.9.0': '2020-12-18T21:18:36.774Z',
+36 silly view       '2.10.0': '2021-02-03T23:08:10.828Z',
+36 silly view       '2.11.0': '2021-09-07T22:47:11.067Z'
+36 silly view     },
+36 silly view     maintainers: [
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object], [Object], [Object], [Object],
+36 silly view       [Object], [Object]
+36 silly view     ],
+36 silly view     description: 'Salesforce CLI plugin for Local Development (Beta)',
+36 silly view     homepage: 'https://github.com/forcedotcom/lwc-dev-server-feedback#readme',
+36 silly view     keywords: [ 'salesforce', 'sfdx', 'salesforcedx', 'sfdx-plugin' ],
+36 silly view     repository: {
+36 silly view       type: 'git',
+36 silly view       url: 'git+https://github.com/forcedotcom/lwc-dev-server-feedback.git'
+36 silly view     },
+36 silly view     bugs: {
+36 silly view       url: 'https://github.com/forcedotcom/lwc-dev-server-feedback/issues'
+36 silly view     },
+36 silly view     license: 'MIT',
+36 silly view     readmeFilename: 'README.md',
+36 silly view     _cached: true,
+36 silly view     _contentLength: 226376,
+36 silly view     version: '2.11.0',
+36 silly view     defaultApiVersion: '49.0',
+36 silly view     main: 'dist/server/LocalDevServer.js',
+36 silly view     types: 'dist/server/LocalDevServer.d.ts',
+36 silly view     bin: { 'lwc-dev-server': 'bin/run' },
+36 silly view     scripts: {
+36 silly view       clean: 'yarn rimraf dist reports coverage errorShots oclif.manifest.json',
+36 silly view       'commit-init': 'commitizen init cz-conventional-changelog --save-dev --save-exact --force',
+36 silly view       commit: 'git-cz',
+36 silly view       build: 'yarn clean && tsc && ts-node script/copy-assets',
+36 silly view       watch: `tsc -w | awk '{gsub(/\\033c/,"") system("")}1'`,
+36 silly view       lint: 'yarn eslint src --ext js,ts',
+36 silly view       'lint:ci': 'yarn lint --format junit --output-file ./reports/junit/eslint-results.xml --no-color',
+36 silly view       test: 'yarn jest --coverage',
+36 silly view       'test:watch': 'yarn test --watch',
+36 silly view       'test:debug': 'node --inspect node_modules/.bin/jest src --runInBand',
+36 silly view       'test:ci': 'yarn test --ci --runInBand',
+36 silly view       'test:e2e': 'HEADLESS=false yarn jest --runInBand --config integration-tests/jest.config.integration-test.js --detectOpenHandles',
+36 silly view       'test:e2e-debug': 'HEADLESS=false node --inspect-brk node_modules/.bin/jest --runInBand --config integration-tests/jest.config.integration-test.js',
+36 silly view       'test:e2e-ci': 'yarn jest --runInBand --force-exit --config integration-tests/jest.config.integration-test.js',
+36 silly view       format: 'prettier --write "src/**/*.ts"',
+36 silly view       'link-webruntime': 'yarn link @webruntime/common @webruntime/framework @webruntime/compiler',
+36 silly view       'unlink-webruntime': 'yarn unlink @webruntime/common @webruntime/framework @webruntime/compiler',
+36 silly view       prepack: 'oclif-dev manifest',
+36 silly view       postpack: 'rm -f oclif.manifest.json',
+36 silly view       prepublishOnly: 'yarn build'
+36 silly view     },
+36 silly view     devDependencies: {
+36 silly view       '@commitlint/cli': '^7',
+36 silly view       '@commitlint/config-conventional': '^7',
+36 silly view       '@lwc/jest-preset': '^4.5.0',
+36 silly view       '@lwc/jest-resolver': '^4.5.0',
+36 silly view       '@lwc/synthetic-shadow': '1.2.2',
+36 silly view       '@oclif/dev-cli': '^1.22.0',
+36 silly view       '@oclif/plugin-command-snapshot': '^2.1.1',
+36 silly view       '@oclif/test': '^1.2.4',
+36 silly view       '@oclif/tslint': '^3.1.1',
+36 silly view       '@salesforce-ux/design-system': '^2.10.0',
+36 silly view       '@salesforce/lwc-jest': '^0.5.1',
+36 silly view       '@types/archiver': '^3.0.0',
+36 silly view       '@types/co-body': '^0.0.3',
+36 silly view       '@types/cpx': '^1.5.0',
+36 silly view       '@types/debug': '^4.1.4',
+36 silly view       '@types/express': '^4.17.3',
+36 silly view       '@types/fs-extra': '^8.1.0',
+36 silly view       '@types/jest': '^24.0.15',
+36 silly view       '@types/jsdom': '^12.2.4',
+36 silly view       '@types/mime-types': '^2.1.0',
+36 silly view       '@types/mock-fs': '^3.6.30',
+36 silly view       '@types/request-promise-native': '^1.0.17',
+36 silly view       '@types/selenium-standalone': '^6.15.0',
+36 silly view       '@types/shelljs': '^0.8.5',
+36 silly view       '@types/uuidv4': '^5.0.0',
+36 silly view       '@typescript-eslint/eslint-plugin': '^2.25.0',
+36 silly view       '@typescript-eslint/parser': '^2.25.0',
+36 silly view       archiver: '^3.1.1',
+36 silly view       commitizen: '^3.0.5',
+36 silly view       'cz-conventional-changelog': '^2.1.0',
+36 silly view       eslint: '^6.0.1',
+36 silly view       'eslint-config-prettier': '^6.0.0',
+36 silly view       'eslint-plugin-prettier': '^3.1.0',
+36 silly view       husky: '^3.0.0',
+36 silly view       jest: '^24.8.0',
+36 silly view       'jest-circus': '^24.9.0',
+36 silly view       'jest-environment-node': '^24.8.0',
+36 silly view       'jest-junit': '^6.4.0',
+36 silly view       'jest-runner-eslint': '^0.7.4',
+36 silly view       'lint-staged': '^9.2.0',
+36 silly view       lwc: '1.2.2',
+36 silly view       'mock-fs': '^4.10.1',
+36 silly view       net: '^1.0.2',
+36 silly view       prettier: '^1.18.2',
+36 silly view       rimraf: '^2.6.3',
+36 silly view       'selenium-standalone': '^6.16.0',
+36 silly view       'ts-jest': '^24.0.2',
+36 silly view       'ts-mockito': '^2.3.1',
+36 silly view       'ts-node': '^8.3.0',
+36 silly view       tslint: '^5.18.0',
+36 silly view       typescript: '^3.8.0',
+36 silly view       webdriverio: '^5.16.15'
+36 silly view     },
+36 silly view     dependencies: {
+36 silly view       '@babel/core': '^7.5.4',
+36 silly view       '@babel/runtime': '^7.5.4',
+36 silly view       '@communities-webruntime/client': '0.30.12',
+36 silly view       '@communities-webruntime/common': '0.30.12',
+36 silly view       '@communities-webruntime/extensions': '0.30.12',
+36 silly view       '@communities-webruntime/services': '0.30.12',
+36 silly view       '@lwc/engine': '1.2.2',
+36 silly view       '@lwc/module-resolver': '1.2.2',
+36 silly view       '@lwc/wire-service': '1.2.2',
+36 silly view       '@oclif/config': '^1.13.1',
+36 silly view       '@rollup/plugin-alias': '^3.0.1',
+36 silly view       '@salesforce/command': '^3.0.0',
+36 silly view       '@salesforce/core': '^2.5.1',
+36 silly view       '@salesforce/lwc-dev-server-dependencies': '1.0.91',
+36 silly view       '@salesforce/telemetry': '^2.0.2',
+36 silly view       '@salesforce/ts-types': '^1.1.4',
+36 silly view       '@types/helmet': '0.0.47',
+36 silly view       '@wdio/sync': '^6.0.15',
+36 silly view       '@webruntime/api': '0.30.12',
+36 silly view       '@webruntime/compiler': '0.30.12',
+36 silly view       '@webruntime/navigation': '0.30.12',
+36 silly view       '@webruntime/server': '0.30.12',
+36 silly view       '@webruntime/services': '0.30.12',
+36 silly view       chokidar: '^3.3.1',
+36 silly view       'co-body': '^6.0.0',
+36 silly view       colors: '^1.3.3',
+36 silly view       cpx: '^1.5.0',
+36 silly view       debug: '^4.1.1',
+36 silly view       decamelize: '^3.2.0',
+36 silly view       'fast-glob': '^3.2.2',
+36 silly view       'fast-xml-parser': '^3.16.0',
+36 silly view       'fs-extra': '^8.1.0',
+36 silly view       'get-port': '^5.1.1',
+36 silly view       jsdom: '^15.1.1',
+36 silly view       'mime-types': '^2.1.27',
+36 silly view       reload: '^3.0.4',
+36 silly view       'request-promise-native': '^1.0.8',
+36 silly view       shelljs: '^0.8.3',
+36 silly view       'strip-ansi': '^6.0.0',
+36 silly view       uuidv4: '5.0.0'
+36 silly view     },
+36 silly view     resolutions: {
+36 silly view       'js-yaml': '^3.13.1',
+36 silly view       braces: '^3.0.2',
+36 silly view       'eslint-utils': '^1.4.2',
+36 silly view       mem: '^4.0.0',
+36 silly view       'csv-parse': '^4.6.0',
+36 silly view       'kind-of': '^6.0.3',
+36 silly view       minimist: '^1.2.2',
+36 silly view       acorn: '^7.1.1'
+36 silly view     },
+36 silly view     engines: { node: '>=10.15.3' },
+36 silly view     oclif: {
+36 silly view       macos: [Object],
+36 silly view       commands: './dist/cli/commands',
+36 silly view       bin: 'lwc-dev-server',
+36 silly view       devPlugins: [Array]
+36 silly view     },
+36 silly view     husky: { hooks: [Object] },
+36 silly view     'lint-staged': { './{src,test}/**/*.{ts,js}': [Array] },
+36 silly view     publishConfig: { access: 'public' },
+36 silly view     config: { commitizen: [Object] },
+36 silly view     sfdx: {
+36 silly view       publicKeyUrl: 'https://developer.salesforce.com/media/salesforce-cli/sfdx-cli-03032020.crt',
+36 silly view       signatureUrl: 'https://developer.salesforce.com/media/salesforce-cli/signatures/salesforce-lwc-dev-server-2.11.0.sig'
+36 silly view     },
+36 silly view     _resolved: '',
+36 silly view     _integrity: '',
+36 silly view     _from: 'file:salesforce-lwc-dev-server-2.11.0.tgz',
+36 silly view     _nodeVersion: '12.22.6',
+36 silly view     _npmVersion: '6.14.15',
+36 silly view     dist: {
+36 silly view       integrity: 'sha512-FCYWivrMSG4Vae1/fy+nY7tVfZ50j5WZrpInV+gymwEMNZdELcchXjqAZJAJWvnMkOwq0sfXhZJaw4fUs2yJjw==',
+36 silly view       shasum: 'e4ad544aa779c38c02c34a80408e9dc87f534b44',
+36 silly view       tarball: 'https://registry.npmjs.org/@salesforce/lwc-dev-server/-/lwc-dev-server-2.11.0.tgz',
+36 silly view       fileCount: 204,
+36 silly view       unpackedSize: 3983181,
+36 silly view       'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\n' +
+36 silly view         'Version: OpenPGP.js v3.0.13\r\n' +
+36 silly view         'Comment: https://openpgpjs.org\r\n' +
+36 silly view         '\r\n' +
+36 silly view         'wsFcBAEBCAAQBQJhN+vvCRA9TVsSAnZWagAA8k8P/i1h3e7KS7yYDdMrNLqx\n' +
+36 silly view         'LlxNcDWKzy6CL7mVI0XMCsBEx1/x6T2qObXkZ5SE/v8M9j0omljoP2/L3Ne9\n' +
+36 silly view         'UcLeq7u3RpdvBdHe2UX7rAxY+ujZycLdee5Witw0PlJxNrrF2iSDEyDO771T\n' +
+36 silly view         'ZEuWZY2hf3PPC40K6gn7cCyo9u+kmNenjXkg7L50CVDN8YYvuSKa26+sDZ+1\n' +
+36 silly view         'IiJIwlNpda93UXPLyqpNAE1FRoRtrJiI1vzB8shE+/FXzrPu5AGkupiTAspJ\n' +
+36 silly view         'v0dfv7DG22XUy6EAc7VVwGvX1kWQ+mkJj6dKALr4efmwuyPLRedUgVxo2O/u\n' +
+36 silly view         'xXSlS0g6gqqbaum3E0ze63nIqrjfnx5Z+srF2SRPH4qAOVjMOXiQdo/nKb8X\n' +
+36 silly view         'Iphx9wdLRm3TWUImmhIIbKRW1lNp/O5FPm9khZPw9BedFjyMBxutVMhrT4Nz\n' +
+36 silly view         'jOQLJZrUNv67F5ZcX+IdoWdu8RXplMOtUr+rjE9jyWbRQVS9z2C3gfJm++Z3\n' +
+36 silly view         'LslIupJ0yA88/HYjT+Jlx1yBqfXGH6AJADCmRietEho5g3ocsjUcfA9d769q\n' +
+36 silly view         'NyVVDPpN0caSdhSIqdDg6NqmOoDhumvfMq5pgfGBBV1lrbz8omtXwHaU0XNR\n' +
+36 silly view         'CGIrL82tHZ9Gt0fIRmJrsNmoGI8gGtqdnXWtHVIRE3iIaclLWWL79oLnzwbv\n' +
+36 silly view         'MXns\r\n' +
+36 silly view         '=v/um\r\n' +
+36 silly view         '-----END PGP SIGNATURE-----\r\n',
+36 silly view       signatures: [Array]
+36 silly view     },
+36 silly view     _npmUser: { name: 'salesforce-releases', email: 'alm-cli@salesforce.com' },
+36 silly view     directories: {},
+36 silly view     _npmOperationalInternal: {
+36 silly view       host: 's3://npm-registry-packages',
+36 silly view       tmp: 'tmp/lwc-dev-server_2.11.0_1631054830631_0.9863124219998847'
+36 silly view     },
+36 silly view     _hasShrinkwrap: false
+36 silly view   }
+36 silly view }
+37 timing command:show Completed in 3132ms
+38 verbose exit 0
+39 timing npm Completed in 3628ms
+40 info ok
